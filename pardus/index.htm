@@ -1,0 +1,1651 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!--
+: -------------------------------------oOOo-------------------------------------
+: Title    : Pardus
+: System   : Jivemaster.co.uk
+: Author   : Anwar Ali @ Jivemaster Limited
+: Date     : 01-Jan-2009
+: File     : pardus/index.htm
+: Modified :
+: -------------------------------------oOOo-------------------------------------
+: Notes:
+:
+: o
+: -------------------------------------oOOo-------------------------------------
+-->
+<head>
+<title>Jivemaster - Pardus</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../asset/blueprint/screen.css"/>
+<link rel="stylesheet" type="text/css" href="../asset/aa-style.css"/>
+<style>
+.aa-map-image {
+  display: block;
+  position: relative;
+}
+
+.aa-map-cell {
+  display: block;
+  position: absolute;
+}
+
+.aa-map-cell:hover {
+  cursor:pointer;
+  border:1px dashed red;
+}
+.aa-map-cell-14x14 {
+	width:14px;
+	height:14px;
+}
+</style>
+</head>
+<body>
+
+<div class="aa-header">
+	Anwar Ali |
+	Pardus |
+	Fact Sheet |
+	Last updated 26-Aug-2016
+</div>
+
+
+<div class="aa-content">
+
+<div>
+	<a href="http://www.pardus.at/"><img class="aa-thumb" src="links/pardus.png" alt="Pardus homepage" title="Pardus homepage"></a>
+	<a href="http://www.jivemaster.byethost4.com/pardus/infocenter/index.php"><img class="aa-thumb" src="links/infocenter.png" alt="Union Infocenter (Jivemaster)" title="Union Infocenter (Jivemaster)"></a>
+	<a href="http://unique.hobby-site.com/Pardus-Spy/UniverseReport?universe=artemis"><img class="aa-thumb" src="links/map_arkoan.jpg" alt="Arkoan's Super Awesome Map" title="Arkoan's Super Awesome Map"></a>
+	<a href="http://pardus.butterfat.net/pardusmapper/maps/artemis/universe.html"><img class="aa-thumb" src="links/map_butterfat.jpg" alt="Map - Butterfat" title="Map - Butterfat"></a>
+	<a href="http://mapper.pardus-alliance.com/Artemis"><img class="aa-thumb" src="links/map_zaqwer.png" alt="Map - Zaqwer" title="Map - Zaqwer"></a>
+	<a href="http://pardus.maxisoft.org/"><img class="aa-thumb" src="links/db_maxisoft.png" alt="Maxisoft Pardus Encyclopedia" title="Maxisoft Pardus Encyclopedia"></a>
+	<a href="http://freetrade.byethost15.com/npc-database/"><img class="aa-thumb" src="links/db_sideshow.png" alt="Sideshow's Skill Limit Database" title="Sideshow's Skill Limit Database"></a>
+	<a href="http://pardus.rukh.de/pshipcalc.htm"><img class="aa-thumb" src="links/fsc.png" alt="Fearsome Ship Calculator" title="Fearsome Ship Calculator"></a>
+</div>
+
+
+<h1>Pardus</h1>
+
+<p>Elite was the first ever game two friends and I purchased the day it was released for our Acorn BBC Model B computers. We had a race to see who would be &quot;Elite&quot; first. I did not win because I was not allowed to keep my computer on for more than 24 hours a day.</p>
+
+<p>One copy between the three of us you may ask, :), that is another story. Those were the days of real computing, 6502 machine code, 6522 VIAs, peeks and pokes, ...</p>
+
+<p>I now enjoy Pardus, so I thought I might as well help others out with information that I found useful.</p>
+
+
+<h2>Infocenter - Combat logger</h2>
+<div>
+<p><a href="http://www.jivemaster.byethost4.com/pardus/infocenter/index.php"><img src="links/infocenter.png" alt="Union Infocenter (Jivemaster)" title="Union Infocenter (Jivemaster)"></a></p>
+<p>Many thanks to Pio for releasing this tool. It has enabled people to share their experience to a wider audience. My implementation is called the <a href="http://www.jivemaster.byethost4.com/pardus/infocenter/index.php">Union Infocenter (Jivemaster)</a> and it is available at <a href="http://www.jivemaster.byethost4.com/pardus/infocenter/index.php">http://www.jivemaster.byethost4.com/pardus/infocenter/index.php</a> to Artemis-Union players. Give me a shout ingame if you need access or encounter any problems.</p>
+<p>Get the latest upload script from <a href="http://www.jivemaster.byethost4.com/pardus/gmscripts">http://www.jivemaster.byethost4.com/pardus/gmscripts</a>. The script you want is <b>pardus_infocenter_share.user.js</b>. If you already have the script, you can add my database to the list of servers at the head of the script.</p>
+</div>
+
+
+<h2>Rank</h2>
+<div>
+<table>
+	<thead>
+		<tr>
+			<th>Level</th>
+			<th><img src="img/images/factions/sign_fed_16x16.png">&nbsp;Federation</th>
+			<th><img src="img/images/factions/sign_emp_16x16.png">&nbsp;Empire</th>
+			<th><img src="img/images/factions/sign_uni_16x16.png">&nbsp;Union</th>
+			<th>Missions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>01</td>
+			<td><img src="img/images/factions/fedrank1.png">&nbsp;Recruit</td>
+			<td><img src="img/images/factions/emprank1.png">&nbsp;Outsider</td>
+			<td><img src="img/images/factions/unirank1.png">&nbsp;Flunkey</td>
+			<td>+8</td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td><img src="img/images/factions/fedrank2.png">&nbsp;Private</td>
+			<td><img src="img/images/factions/emprank2.png">&nbsp;Serf</td>
+			<td><img src="img/images/factions/unirank2.png">&nbsp;Minion</td>
+			<td>+23</td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td><img src="img/images/factions/fedrank3.png">&nbsp;Corporal</td>
+			<td><img src="img/images/factions/emprank3.png">&nbsp;Master/Mistress</td>
+			<td><img src="img/images/factions/unirank3.png">&nbsp;Acolyte</td>
+			<td>+46</td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td><img src="img/images/factions/fedrank4.png">&nbsp;Sergeant</td>
+			<td><img src="img/images/factions/emprank4.png">&nbsp;Sir/Dame</td>
+			<td><img src="img/images/factions/unirank4.png">&nbsp;Bookie</td>
+			<td>+83</td>
+		</tr>
+		<tr>
+			<td>05</td>
+			<td><img src="img/images/factions/fedrank5.png">&nbsp;Sgt-Major</td>
+			<td><img src="img/images/factions/emprank5.png">&nbsp;Squire</td>
+			<td><img src="img/images/factions/unirank5.png">&nbsp;Collector</td>
+			<td>+133</td>
+		</tr>
+		<tr>
+			<td>06</td>
+			<td><img src="img/images/factions/fedrank6.png">&nbsp;Major</td>
+			<td><img src="img/images/factions/emprank6.png">&nbsp;Lord/Lady</td>
+			<td><img src="img/images/factions/unirank6.png">&nbsp;Accountant</td>
+			<td>+201</td>
+		</tr>
+		<tr>
+			<td>07</td>
+			<td><img src="img/images/factions/fedrank7.png">&nbsp;Colonel</td>
+			<td><img src="img/images/factions/emprank7.png">&nbsp;Baron[ess]</td>
+			<td><img src="img/images/factions/unirank7.png">&nbsp;Cleaner</td>
+			<td>+288</td>
+		</tr>
+		<tr>
+			<td>08</td>
+			<td><img src="img/images/factions/fedrank8.png">&nbsp;Lieutenant</td>
+			<td><img src="img/images/factions/emprank8.png">&nbsp;Viscount[ess]</td>
+			<td><img src="img/images/factions/unirank8.png">&nbsp;Made Man/Woman</td>
+			<td>+397</td>
+		</tr>
+		<tr>
+			<td>09</td>
+			<td><img src="img/images/factions/fedrank9.png">&nbsp;Lt. Commander</td>
+			<td><img src="img/images/factions/emprank9.png">&nbsp;Count[ess]</td>
+			<td><img src="img/images/factions/unirank9.png">&nbsp;Chief</td>
+			<td>+530</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td><img src="img/images/factions/fedrank10.png">&nbsp;Captain</td>
+			<td><img src="img/images/factions/emprank10.png">&nbsp;Earl/Marchesa</td>
+			<td><img src="img/images/factions/unirank10.png">&nbsp;Kingpin</td>
+			<td>+690</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td><img src="img/images/factions/fedrank11.png">&nbsp;Commodore</td>
+			<td><img src="img/images/factions/emprank11.png">&nbsp;Marquis/Marchioness</td>
+			<td><img src="img/images/factions/unirank11.png">&nbsp;Nephew/Niece</td>
+			<td>+878</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td><img src="img/images/factions/fedrank12.png">&nbsp;Rear Admiral</td>
+			<td><img src="img/images/factions/emprank12.png">&nbsp;Duke/Duchess</td>
+			<td><img src="img/images/factions/unirank12.png">&nbsp;Son/Daughter</td>
+			<td>+1099</td>
+		</tr>
+		<tr>
+			<td>13</td>
+			<td><img src="img/images/factions/fedrank13.png">&nbsp;Admiral</td>
+			<td><img src="img/images/factions/emprank13.png">&nbsp;Prince[ss]</td>
+			<td><img src="img/images/factions/unirank13.png">&nbsp;Godfather/mother</td>
+			<td>max</td>
+		</tr>
+		<tr class="tblrowsep">
+			<td>14</td>
+			<td><img src="img/images/factions/fedrank14.png">&nbsp;Fleet Admiral</td>
+			<td><img src="img/images/factions/emprank14.png">&nbsp;King/Queen</td>
+			<td><img src="img/images/factions/unirank14.png">&nbsp;Mogul</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li><a href="http://www.pardus.at/index.php?section=manual_twop012">Faction Ranks &amp; Bonuses manual pages.</a></li>
+</ul>
+</div>
+
+
+<h2>Homeworlds</h2>
+<div>
+<table>
+	<thead>
+		<tr>
+			<th>Faction</th>
+			<th>Cluster</th>
+			<th>Sector</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img src="img/images/factions/sign_fed_16x16.png"> Federation</td>
+			<td>FHC Federation Human Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Sol.html">Earth, Sol [7,4]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>FSH Federation South Human</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Tiafa.html">Tiafa, Tiafa [9,7]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>FRC Federation Rashkir Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Rashkan.html">Rashkan, Rashkan [15,17]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>PFC Pardus Federation Contingent</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Ras_Elased.html">Elased, Ras Elased [21,20]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/factions/sign_emp_16x16.png"> Empire</td>
+			<td>EKC Empire Keldon Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Keldon.html">Keldana 1, Keldon [9,24]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>ESC Empire Ska'ari Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Ska.html">Skara, Ska [21,12]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>EWS Empire West Ska'ari</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Edvea.html">Edvea, Edvea [21,9]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>PEC Pardus Empire Contingent</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Rigel.html">Rigel, Rigel [10,17]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/factions/sign_uni_16x16.png"> Union</td>
+			<td>UKC Union Keldon Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Sirius.html">Sirion, Sirius [14,16]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>URC Union Rashkir Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Vega.html">Vega, Vega [6,10]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>UNR Union North Rashkir</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Let.html">Let, Let [9,11]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>PUC Pardus Union Contingent</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Cor_Caroli.html">Caroli, Cor Caroli [22,20]</a></td>
+		</tr>
+		<tr>
+			<td>Neutral zones</td>
+			<td>NPR North Pardus Rim</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Ururur.html">Ururur, Ururur [11,7]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>EPR East Pardus Rim</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Phao.html">Phao, Phao [11,11]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>SPR South Pardus Rim</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Lahola.html">Lahola, Lahola [6,9]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>WPR West Pardus Rim</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Usube.html">Usube, Usube [6,20]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Gap</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Fadaphi.html">Fadaphi, Fadaphi [11,11]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Lane</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Waolex.html">Waolex, Waolex [6,6]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Split</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Tivea.html">Tivea, Tivea [10,11]</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+
+<h2>Secret Facilities</h2>
+<div>
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Facility</th>
+			<th>Type</th>
+			<th>Cluster</th>
+			<th>Location</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img src="img/images/foregrounds/research_station.png" title="Research Station"></td>
+			<td>Bio/Organic Labs</td>
+			<td>Armour</td>
+			<td>EKC</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Keldon.html">Keldon [22,29]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Bio/Organic Labs</td>
+			<td>Armour</td>
+			<td>WPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Laolla.html">Laolla [3,13]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Bio/Organic Labs</td>
+			<td>Weapons</td>
+			<td>EPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Nusakan.html">Nusakan [1,7]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Bio/Organic Labs</td>
+			<td>Weapons</td>
+			<td>EKC</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Fomalhaut.html">Fomalhaut [5,13]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Bio/Organic Labs</td>
+			<td>Weapons</td>
+			<td>WPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Zamith.html">Zamith [2,7]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/research_station.png" title="Research Station"></td>
+			<td>Electro-Magnetic Labs</td>
+			<td>Armour</td>
+			<td>FHC</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Pass_FED-01.html">Pass FED-01 [1,10]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Electro-Magnetic Labs</td>
+			<td>Weapons</td>
+			<td>ESC</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Waiophi.html">Waiophi [7,12]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Electro-Magnetic Labs</td>
+			<td>Weapons</td>
+			<td>NPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Remo.html">Remo [21,18]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/lucidi_station1.png" title="Lucidi Station"><img src="img/images/foregrounds/lucidi_station2.png" title="Lucidi Station"></td>
+			<td>Lucidi Labs</td>
+			<td>Armour</td>
+			<td>Pardus Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Pardus.html#x96y58">Pardus [96,58]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Lucidi Labs</td>
+			<td>Weapons</td>
+			<td>Pardus Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Pardus.html">Pardus [9,4]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Lucidi Labs</td>
+			<td>Weapons</td>
+			<td>Pardus Core</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Pardus.html">Pardus [42,89]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/hidden_laboratory.png" title="Hidden Laboratory"></td>
+			<td>Hidden Laboratory</td>
+			<td>Hidden Lab</td>
+			<td>EPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Wasat.html">Wasat [23,14]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Hidden Laboratory</td>
+			<td>Hidden Lab</td>
+			<td>NPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Electra.html">Electra [9,0]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Hidden Laboratory</td>
+			<td>Hidden Lab</td>
+			<td>NPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Electra.html">Electra [17,13]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Hidden Laboratory</td>
+			<td>Hidden Lab</td>
+			<td>Split</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Nex_0005.html">Nex 0005 [1,3]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/dark_harbor.png" title="Dark Harbour"></td>
+			<td>Dark Harbour</td>
+			<td>Dark Harbour</td>
+			<td>Lane</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Qumia.html">Qumia [0,14]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Dark Harbour</td>
+			<td>Dark Harbour</td>
+			<td>NPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Electra.html">Electra [10,1]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Dark Harbour</td>
+			<td>Dark Harbour</td>
+			<td>SPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Veareth.html">Veareth [10,8]</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Dark Harbour</td>
+			<td>Dark Harbour</td>
+			<td>WPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/Zirr.html">Zirr [23,13]</a></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/cybernetic_station.png" title="Cybernetics Station"></td>
+			<td>Illegal Labs</td>
+			<td>Cybernetics Station</td>
+			<td>WPR</td>
+			<td><a href="http://www.thebluesuncorporation.com/pardusmap/Artemis/HO_2-296.html">Ho 2-296 [5,1]</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li>
+		<img src="img/images/res/x993_repairdrone.png" title="X993 Repair Drone"/> 
+			= 100K<img src="img/images/credits.png" title="Credits"/> 
+			+ 5<img src="img/images/res/cybernetic_x993_parts.png" title="Cybernetic X993 parts"/> 
+			+ 5<img src="img/images/res/electronics.png" title="Electronics"/> 
+			+ 5<img src="img/images/res/droid_modules.png" title="Droid modules"/> 
+			+ 1<img src="img/images/res/keldon_brains.png" title="Keldon brains"/>
+	</li>
+	<li>
+		<img src="img/images/res/neural_stimulator.png" title="Neural Stimulator"/> 
+			= 650K<img src="img/images/credits.png" title="Credits"/> 
+			+ 3<img src="img/images/res/cybernetic_x993_parts.png" title="Cybernetic X993 parts"/> 
+			+ 10<img src="img/images/res/electronics.png" title="Electronics"/> 
+			+ 3<img src="img/images/res/radioactive_cells.png" title="Radioactive cells"/>
+	</li>
+</ul>
+</div>
+
+
+<h2>Map</h2>
+<div class="aa-map-image">
+	<img src="img/map.png"/>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:017px; left:385px;" title="ZU 3-239"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:017px; left:401px;" title="Greenso"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:017px; left:433px;" title="Nex 0006"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:017px; left:449px;" title="Propus"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:321px;" title="JO 4-132"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:337px;" title="Bewaack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:353px;" title="Miayda"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:369px;" title="Silaad"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:385px;" title="Fadaphi"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:449px;" title="Elnath"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:497px;" title="Arexack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:513px;" title="GT 3-328"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:529px;" title="Famida"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:561px;" title="Uv Seti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:033px; left:577px;" title="Gresoin"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:369px;" title="Xeho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:385px;" title="Oucanfa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:401px;" title="Cegreeth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:433px;" title="AB 5-848"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:449px;" title="Algol"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:481px;" title="Pass UNI-09"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:497px;" title="Dadaex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:513px;" title="Lavebe"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:545px;" title="Let"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:049px; left:593px;" title="PA 2-013"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:321px;" title="Pass FED-13"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:385px;" title="Edmial"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:449px;" title="Vecelia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:497px;" title="Pass UNI-06"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:529px;" title="Tigrecan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:545px;" title="Sobein"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:561px;" title="Zeaay"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:065px; left:593px;" title="Abeho"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:081px; left:545px;" title="BU 5-773"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:081px; left:577px;" title="Iohofa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:081px; left:609px;" title="Olaso"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:305px;" title="Nionquat"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:321px;" title="GV 4-652"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:337px;" title="Sohoa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:433px;" title="Baar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:449px;" title="Aandti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:465px;" title="Hooth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:481px;" title="Atlas"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:497px;" title="Qumia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:513px;" title="Polaris"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:593px;" title="Lagreen"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:097px; left:625px;" title="Veliace"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:257px;" title="Nebul"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:289px;" title="Famiay"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:321px;" title="Betelgeuse"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:369px;" title="Tiacan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:385px;" title="Essaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:401px;" title="Pass FED-07"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:433px;" title="UZ 8-466"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:449px;" title="Waolex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:497px;" title="Solaqu"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:513px;" title="Ioquex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:545px;" title="Pass UNI-07"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:577px;" title="Uressce"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:593px;" title="Miola"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:113px; left:609px;" title="WI 4-329"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:241px;" title="Capella"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:321px;" title="Rashkan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:337px;" title="Omicron Eridani"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:369px;" title="Ackexa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:385px;" title="YC 3-268"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:433px;" title="Gilo"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:129px; left:593px;" title="Pass UNI-08"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:225px;" title="Bedaho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:289px;" title="Phekda"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:305px;" title="Epsilon Indi"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:433px;" title="Nex 0001"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:513px;" title="Dainfa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:529px;" title="Aveed"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:145px; left:561px;" title="Exiool"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:209px;" title="Zeaex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:369px;" title="Pass FED-05"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:385px;" title="Pass FED-06"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:433px;" title="BL 6-511"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:513px;" title="Ioliaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:561px;" title="Edethex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:577px;" title="Beta Hydri"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:593px;" title="Naos"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:161px; left:609px;" title="CP 2-197"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:161px;" title="Inena"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:193px;" title="Maia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:225px;" title="Micanex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:305px;" title="LO 2-014"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:433px;" title="Becanol"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:449px;" title="Anphiex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:481px;" title="Pass UNI-01"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:513px;" title="Gretiay"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:529px;" title="Sophilia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:545px;" title="DI 9-486"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:561px;" title="Vega"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:177px; left:609px;" title="Zaurak"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:129px;" title="Pass FED-03"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:161px;" title="Alioth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:369px;" title="Canopus"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:385px;" title="SD 3-562"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:433px;" title="Zelada"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:449px;" title="Lasolia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:513px;" title="Liaququ"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:545px;" title="Spica"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:561px;" title="Daured"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:577px;" title="Ackwada"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:193px; left:593px;" title="Menkent"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:177px;" title="JS 2-090"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:209px;" title="Waayan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:225px;" title="HC 4-962"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:257px;" title="Pass FED-04"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:289px;" title="Phiagre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:305px;" title="Miphimi"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:321px;" title="WO 3-290"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:337px;" title="Nex 0002"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:353px;" title="Ururur"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:369px;" title="BQ 3-927"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:385px;" title="Ross"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:401px;" title="Famiso"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:433px;" title="Edenve"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:449px;" title="Faarfa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:209px; left:545px;" title="Wainze"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:129px;" title="PJ3373"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:305px;" title="Olcanze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:321px;" title="Hocancan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:337px;" title="Daaya"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:353px;" title="Betiess"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:369px;" title="Enaness"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:385px;" title="Remo"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:513px;" title="Urfaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:529px;" title="Quexce"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:545px;" title="YV 3-386"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:577px;" title="Pass UNI-04"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:609px;" title="Dsiban"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:225px; left:641px;" title="Izar"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:113px;" title="Epsilon Eridani"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:145px;" title="Quurze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:161px;" title="Hoanda"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:321px;" title="Laedgre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:609px;" title="Nashira"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:241px; left:641px;" title="Wezen"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:033px;" title="Enioar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:065px;" title="Pass FED-09"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:097px;" title="Faexze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:129px;" title="Sol"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:145px;" title="SA2779"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:177px;" title="ZZ2986"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:289px;" title="Iozeio"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:321px;" title="Electra"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:369px;" title="Fornacis"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:385px;" title="Sargas"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:401px;" title="Quaack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:417px;" title="Labela"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:433px;" title="Cor Caroli"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:449px;" title="Gomeisa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:513px;" title="Pass UNI-02"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:529px;" title="Pass UNI-03"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:593px;" title="Lazebe"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:257px; left:625px;" title="Turais"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:033px;" title="Liaface"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:113px;" title="Alpha Centauri"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:161px;" title="Beta Proxima"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:273px;" title="HO 2-296"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:289px;" title="Beethti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:369px;" title="Ras Elased"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:449px;" title="Cebece"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:593px;" title="Olaeth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:273px; left:609px;" title="Bellatrix"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:033px;" title="Inioen"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:113px;" title="Ericon"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:129px;" title="Olexti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:145px;" title="Lalande"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:161px;" title="BL3961"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:177px;" title="Tau Ceti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:209px;" title="Pass FED-01"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:241px;" title="Grefaho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:273px;" title="Olphize"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:289px;" title="Edbeeth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:305px;" title="Anaam"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:353px;" title="Dubhe"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:369px;" title="Enif"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:401px;" title="Pardus"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:433px;" title="Nhandu"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:465px;" title="Etamin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:497px;" title="Kitalpha"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:513px;" title="EH 5-382"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:529px;" title="Diphda"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:545px;" title="Thabit"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:593px;" title="WW 2-934"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:625px;" title="Sirius"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:289px; left:641px;" title="Gienah Cygni"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:017px;" title="VM 3-326"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:113px;" title="XH3819"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:161px;" title="Siberion"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:177px;" title="WP3155"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:209px;" title="Pass FED-02"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:241px;" title="Ayargre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:257px;" title="Zirr"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:273px;" title="Canexin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:289px;" title="Retho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:305px;" title="Meram"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:337px;" title="Mintaka"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:433px;" title="Baham"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:497px;" title="Wasat"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:513px;" title="Alfirk"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:529px;" title="Phao"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:545px;" title="Adara"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:577px;" title="Homam"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:625px;" title="Matar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:305px; left:641px;" title="UG 5-093"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:033px;" title="Wamien"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:065px;" title="Pass FED-10"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:097px;" title="Lave"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:113px;" title="Orerve"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:145px;" title="Daceess"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:257px;" title="Begreze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:273px;" title="Laolla"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:289px;" title="Nex Kataam"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:305px;" title="QW 2-014"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:353px;" title="Aya"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:369px;" title="Nari"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:385px;" title="Heze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:401px;" title="Procyon"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:417px;" title="Menkar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:433px;" title="Rigel"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:497px;" title="HW 3-863"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:513px;" title="Nex 0004"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:529px;" title="Mebsuta"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:545px;" title="Seginus"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:625px;" title="Nekkar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:321px; left:641px;" title="Achird"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:097px;" title="Miarin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:129px;" title="Andexa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:257px;" title="Usube"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:273px;" title="Tiacken"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:289px;" title="Soessze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:305px;" title="Zamith"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:465px;" title="DH 3-625"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:497px;" title="Rotanev"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:529px;" title="Zaniah"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:545px;" title="Nusakan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:577px;" title="Pass UNI-05"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:609px;" title="BE 3-702"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:337px; left:625px;" title="Phaet"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:033px;" title="UF 3-555"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:049px;" title="Qumiin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:065px;" title="Ureneth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:113px;" title="Ook"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:241px;" title="Urhoho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:273px;" title="Edmize"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:289px;" title="Faphida"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:305px;" title="Mizar"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:337px;" title="Quince"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:385px;" title="Nunki"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:417px;" title="Becanin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:449px;" title="Exbeur"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:465px;" title="Veareth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:529px;" title="Zuben Elakrab"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:353px; left:545px;" title="Yildun"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:017px;" title="Leesti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:033px;" title="Xewao"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:065px;" title="Ayqugre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:129px;" title="Cesoho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:273px;" title="TG 2-143"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:289px;" title="Datiack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:353px;" title="Sodaack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:369px;" title="Facece"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:385px;" title="Lahola"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:401px;" title="GM 4-572"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:417px;" title="Urioed"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:433px;" title="Tiliala"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:449px;" title="AN 2-956"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:465px;" title="Waarze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:593px;" title="Keid"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:609px;" title="Cebalrai"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:625px;" title="Subra"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:369px; left:641px;" title="Furud"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:017px;" title="Faedho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:113px;" title="Pass FED-08"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:193px;" title="Nex 0005"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:353px;" title="ZP 2-989"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:369px;" title="Ophiuchi"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:385px;" title="Nex 0003"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:401px;" title="Encea"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:385px; left:529px;" title="Pass EMP-06"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:049px;" title="Aedce"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:065px;" title="RA 3-124"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:177px;" title="Quexho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:193px;" title="Canolin"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:273px;" title="Pass EMP-01"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:289px;" title="Pass EMP-02"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:369px;" title="Cabard"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:385px;" title="Paan"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:401px;" title="Cemiess"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:449px;" title="Pass EMP-04"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:401px; left:465px;" title="Pass EMP-05"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:017px;" title="JG 2-013"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:033px;" title="Tiafa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:113px;" title="FR 3-328"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:129px;" title="Liaackti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:145px;" title="Andsoled"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:161px;" title="Tivea"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:177px;" title="Veedfa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:193px;" title="Phiandgre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:417px; left:529px;" title="LN 3-141"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:017px;" title="Hobeex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:033px;" title="Ollaffa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:065px;" title="Pass FED-11"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:097px;" title="Beurso"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:113px;" title="Stein"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:129px;" title="Enwaand"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:193px;" title="Ladaen"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:273px;" title="Iceo"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:289px;" title="IP 3-251"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:449px;" title="Daurlia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:465px;" title="PI 4-669"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:513px;" title="Urlafa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:433px; left:529px;" title="WG 3-288"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:017px;" title="SF 5-674"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:065px;" title="Pass FED-12"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:097px;" title="Daaze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:193px;" title="PP 5-713"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:225px;" title="Pass EMP-07"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:257px;" title="Quana"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:289px;" title="Zeolen"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:305px;" title="Olbea"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:433px;" title="Quator"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:465px;" title="Delta Pavonis"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:481px;" title="Eta Cassiopeia"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:497px;" title="SZ 4-419"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:449px; left:545px;" title="Iniolol"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:033px;" title="Soolti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:049px;" title="Ceanze"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:177px;" title="Edqueth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:193px;" title="Oauress"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:273px;" title="Tiexen"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:289px;" title="Adaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:321px;" title="RV 2-578"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:417px;" title="Zezela"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:465px;" title="Keldon"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:513px;" title="Regulus"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:465px; left:545px;" title="Greandin"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:177px;" title="Ceina"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:193px;" title="Sowace"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:257px;" title="Phicanho"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:289px;" title="Ska"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:321px;" title="Urandack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:385px;" title="An Dzeve"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:433px;" title="Tianbe"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:465px;" title="KU 3-616"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:513px;" title="Cassand"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:481px; left:529px;" title="Aeg"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:273px;" title="Inliaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:305px;" title="PO 4-991"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:385px;" title="Canaab"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:417px;" title="Fomalhaut"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:449px;" title="Laanex"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:481px;" title="Pollux"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:497px; left:497px;" title="Besoex"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:177px;" title="Pass EMP-10"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:193px;" title="Pass EMP-11"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:289px;" title="Kenlada"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:321px;" title="Sigma Draconis"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:337px;" title="Miayack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:353px;" title="Exinfa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:369px;" title="Lamice"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:385px;" title="Grecein"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:401px;" title="Pass EMP-03"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:417px;" title="Ackandso"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:449px;" title="Vewaa"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:513px; left:497px;" title="Wolf"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:129px;" title="Zearla"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:209px;" title="Greliai"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:257px;" title="Pass EMP-08"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:289px;" title="Lianla"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:321px;" title="VH 3-344"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:337px;" title="Edeneth"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:529px; left:433px;" title="Exackcan"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:113px;" title="Beeday"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:129px;" title="Ackarack"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:145px;" title="YS 3-386"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:161px;" title="Ayinti"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:177px;" title="Anayed"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:209px;" title="Tiurio"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:241px;" title="DP 2-354"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:289px;" title="XC 3-261"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:545px; left:305px;" title="Waiophi"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:561px; left:129px;" title="Watibe"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:561px; left:193px;" title="RX 3-129"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:561px; left:225px;" title="Fawaol"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:113px;" title="CC 3-771"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:145px;" title="Oldain"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:177px;" title="Edvea"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:241px;" title="Iowagre"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:257px;" title="Hource"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:577px; left:289px;" title="Pass EMP-09"></a>
+
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:593px; left:161px;" title="Miackio"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:593px; left:193px;" title="Belati"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:593px; left:209px;" title="ZS 3-798"></a>
+	<a class="aa-map-cell aa-map-cell-14x14" style="top:593px; left:225px;" title="Quaphi"></a>
+</div>
+
+<h2>Skilling</h2>
+<h2>Hacking</h2>
+
+<h2>NPCs</h2>
+<div>
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Ribbons</th>
+			<th>Name</th>
+			<th>Skills</th>
+			<th>Defenses</th>
+			<th>Weapons</th>
+			<th>Awards</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img src="img/images/opponents/pirate_inexperienced.png"/></td>
+			<td><img src="img/images/ribbons/pirate_inexperienced_bronze.png"/><br/><img src="img/images/ribbons/pirate_inexperienced_silver.png"/><br/><img src="img/images/ribbons/pirate_inexperienced_gold.png"/></td>
+			<td>Inexperienced Pirate<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 30m" src="img/npc_spawn.png"/></td>
+			<td>TA 21<br/>HA 22<br/>MA 22<br/>WE 23<br/>EN 18</td>
+			<td>300 Hull<br/>60 Shield<br/>240 <img src="img/images/equipment/armor_c1.png"/> Titanium (x1)</td>
+			<td><img src="img/images/equipment/MWmin030.png" title="[Laser] Category: Conventional, Damage: 15, Firerate: 1"/> 30 MW Mining<br/><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse<br/><img src="img/images/equipment/missile1.png" title="[Missile] Damage: 90, ART: 4, Intelligence: 1"/> KL760 Homing</td>
+			<td>50 XP<br/>1 Rep.</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/pirate_experienced.png"/></td>
+			<td><img src="img/images/ribbons/pirate_experienced_bronze.png"/><br/><img src="img/images/ribbons/pirate_experienced_silver.png"/><br/><img src="img/images/ribbons/pirate_experienced_gold.png"/></td>
+			<td>Experienced Pirate<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 1h" src="img/npc_spawn.png"/></td>
+			<td>TA 26<br/>HA 30<br/>MA 26<br/>WE 30<br/>EN 24</td>
+			<td>360 Hull<br/>120 Shield<br/>285 <img src="img/images/equipment/armor_c2.png"/> Tritanium (x2)</td>
+			<td><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse<br/><img src="img/images/equipment/MWpar020.png" title="[Laser] Category: Conventional, Damage: 60, Firerate: 2"/> 20 MW Particle<br/><img src="img/images/equipment/missile2.png" title="[Missile] Damage: 135, ART: 4, Intelligence: 2"/> LV111 Intelligent</td>
+			<td>100 XP<br/>3 Rep.</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/pirate_famous.png"/></td>
+			<td><img src="img/images/ribbons/pirate_famous_bronze.png"/><br/><img src="img/images/ribbons/pirate_famous_silver.png"/><br/><img src="img/images/ribbons/pirate_famous_gold.png"/></td>
+			<td>Famous Pirate<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 12h" src="img/npc_spawn.png"/></td>
+			<td>TA 60<br/>HA 70<br/>MA 60<br/>WE 40<br/>EN 30</td>
+			<td>600 Hull<br/>660 Shield<br/>600 <img src="img/images/equipment/armor_c3.png"/> Zortrium (x3)</td>
+			<td><img src="img/images/equipment/MWpar100.png" title="[Laser] Category: Conventional, Damage: 84, Firerate: 2"/> 100 MW Particle<br/><img src="img/images/equipment/lpc.png" title="[Laser] Category: Electro-Magnetic, Damage: 165, Firerate: 1"/> Large Pulse Cannon<br/><img src="img/images/equipment/missile3.png" title="[Missile] Damage: 255, ART: 4, Intelligence: 2"/> NN500 Fleet</td>
+			<td>1,250 XP<br/>36 Rep.</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/smuggler_lone.png"/></td>
+			<td><img src="img/images/ribbons/smuggler_lone_bronze.png"/><br/><img src="img/images/ribbons/smuggler_lone_silver.png"/><br/><img src="img/images/ribbons/smuggler_lone_gold.png"/></td>
+			<td>Lone Smuggler<br/><img title="Roaming" src="img/npc_move.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/></td>
+			<td></td>
+			<td>720 Hull<br/>405 <img src="img/images/equipment/armor_c4.png"/> Neutronium (x4)</td>
+			<td><img src="img/images/equipment/missile2.png" title="[Missile] Damage: 135, ART: 4, Intelligence: 2"/> LV111 Intelligent</td>
+			<td>Loot: <img title="Human Intestines" src="img/images/res/human_intestines.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/smuggler_escorted.png"/></td>
+			<td><img src="img/images/ribbons/smuggler_escorted_bronze.png"/><br/><img src="img/images/ribbons/smuggler_escorted_silver.png"/><br/><img src="img/images/ribbons/smuggler_escorted_gold.png"/></td>
+			<td>Escorted Smuggler<br/><img title="Roaming" src="img/npc_move.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: Rare" src="img/npc_hold.png"/></td>
+			<td>TA 35<br/>HA 40<br/>MA 35</td>
+			<td>720 Hull<br/>405 <img src="img/images/equipment/armor_c4.png"/> Neutronium (x4)</td>
+			<td><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/>5 MW Impulse<br/><img src="img/images/equipment/MWpar020.png" title="[Laser] Category: Conventional, Damage: 60, Firerate: 2"/>20 MW Particle<br/><img src="img/images/equipment/MWpar020.png" title="[Laser] Category: Conventional, Damage: 60, Firerate: 2"/>20 MW Particle<br/><img src="img/images/equipment/missile2.png" title="[Missile] Damage: 135, ART: 4, Intelligence: 2"/>LV111 Intelligent</td>
+			<td>620 XP<br/>Loot: <img title="Human Intestines" src="img/images/res/human_intestines.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_snail.png"/></td>
+			<td><img src="img/images/ribbons/space_snail_bronze.png"/><br/><img src="img/images/ribbons/space_snail_silver.png"/><br/><img src="img/images/ribbons/space_snail_gold.png"/></td>
+			<td>Space Snail<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 6h" src="img/npc_spawn.png"/></td>
+			<td>TA 35<br/>HA 42<br/>MA 35<br/>WE 40<br/>EN 25</td>
+			<td>40 Hull<br/>485 <img src="img/images/equipment/armor_c3.png"/> Zortrium (x3)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 106, Firerate: 1">Glacial Ripple</span><br/><span title="[Laser] Category: Organic, Damage: 106, Firerate: 1">Glacial Ripple</span><br/><span title="[Missile] Damage: 740, ART: ???, Intelligence: ???">Big Glacial Spikes</span><br/><span title="[Missile] Damage: 380, ART: ???, Intelligence: ???">Glacial Spikes (Snail)</span></td>
+			<td>500 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/x993_squad.png"/></td>
+			<td><img src="img/images/ribbons/x993_squad_bronze.png"/><br/><img src="img/images/ribbons/x993_squad_silver.png"/><br/><img src="img/images/ribbons/x993_squad_gold.png"/></td>
+			<td>X-993 Squad<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 48m" src="img/npc_spawn.png"/></td>
+			<td>TA 35<br/>HA 43<br/>MA 55<br/>WE 33<br/>EN 28</td>
+			<td>975 Hull</td>
+			<td><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse<br/><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse<br/><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse<br/><img src="img/images/equipment/MWimp005.png" title="[Laser] Category: Conventional, Damage: 30, Firerate: 1"/> 5 MW Impulse</td>
+			<td>130 XP<br/>Loot: <img title="Cybernetic X-993 Parts" src="img/images/res/cybernetic_x993_parts.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/x993_battlecruiser.png"/></td>
+			<td><img src="img/images/ribbons/x993_battlecruiser_bronze.png"/><br/><img src="img/images/ribbons/x993_battlecruiser_silver.png"/><br/><img src="img/images/ribbons/x993_battlecruiser_gold.png"/></td>
+			<td>X-993 Battlecruiser<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Common" src="img/npc_hold.png"/><img title="Respawn time: 7h" src="img/npc_spawn.png"/></td>
+			<td>TA 62<br/>HA 46<br/>MA 45<br/>WE 45<br/>EN 29</td>
+			<td>450 Hull<br/>375 <img src="img/images/equipment/armor_c3.png"/> Zortrium (x3)</td>
+			<td><img src="img/images/equipment/MWpar020.png" title="[Laser] Category: Conventional, Damage: 60, Firerate: 2"/> 20 MW Particle<br/><img src="img/images/equipment/MWgat006.png" title="[Laser] Category: Conventional, Damage: 48, Firerate: 3"/> 6 MW Gatling<br/><img src="img/images/equipment/missile2.png" title="[Missile] Damage: 135, ART: 4, Intelligence: 2"/> LV111 Intelligent</td>
+			<td>470 XP<br/>Loot: <img title="Cybernetic X-993 Parts" src="img/images/res/cybernetic_x993_parts.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/x993_mothership.png"/></td>
+			<td><img src="img/images/ribbons/x993_mothership_bronze.png"/><br/><img src="img/images/ribbons/x993_mothership_silver.png"/><br/><img src="img/images/ribbons/x993_mothership_gold.png"/></td>
+			<td>X-993 Mothership<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 2d 6h" src="img/npc_spawn.png"/></td>
+			<td>HA 65</td>
+			<td>1,050 Hull<br/>420 Shield<br/>900 <img src="img/images/equipment/armor_c4.png"/> Neutronium (x4)</td>
+			<td><img src="img/images/equipment/MWpar100.png" title="[Laser] Category: Conventional, Damage: 84, Firerate: 2"/> 100 MW Particle<br/><img src="img/images/equipment/MWpar100.png" title="[Laser] Category: Conventional, Damage: 84, Firerate: 2"/> 100 MW Particle<br/><img src="img/images/equipment/missile3.png" title="[Missile] Damage: 255, ART: 4, Intelligence: 2"/> NN500 Fleet</td>
+			<td>1,600 XP<br/>Loot: <img title="Cybernetic X-993 Parts" src="img/images/res/cybernetic_x993_parts.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z15_scout.png"/></td>
+			<td><img src="img/images/ribbons/z15_scout_bronze.png"/><br/><img src="img/images/ribbons/z15_scout_silver.png"/><br/><img src="img/images/ribbons/z15_scout_gold.png"/></td>
+			<td>Z15 Scout<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 18h 12m" src="img/npc_spawn.png"/></td>
+			<td>HA 75</td>
+			<td>360 Hull<br/>420 Shield<br/>1,080 <img src="img/images/equipment/armor_c4.png"/> Neutronium (x4)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 72, Firerate: 2">60 MW Particle</span><br/><span title="[Laser] Category: Conventional, Damage: 72, Firerate: 2">60 MW Particle</span><br/><img src="img/images/equipment/missile1.png" title="[Missile] Damage: 90, ART: 4, Intelligence: 1"/> KL760 Homing</td>
+			<td>1,700 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z15_repair_drone.png"/></td>
+			<td><img src="img/images/ribbons/z15_repair_drone_bronze.png"/><br/><img src="img/images/ribbons/z15_repair_drone_silver.png"/><br/><img src="img/images/ribbons/z15_repair_drone_gold.png"/></td>
+			<td>Z15 Repair Drone<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 26h" src="img/npc_spawn.png"/></td>
+			<td>
+				TA 60<br/>HA 82<br/>MA 60<br/>WE 35<br/>EN 31</td>
+			<td>450 Hull<br/>420 Shield<br/>900 <img src="img/images/equipment/armor_c5.png"/> Adamantium (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 100, Firerate: 2">120 MW Particle</span><br/><span title="[Laser] Category: Conventional, Damage: 100, Firerate: 2">120 MW Particle</span><br/><span title="[Missile] Damage: 255, ART: 5, Intelligence: ???">Z700 Avenger (Drone)</span></td>
+			<td>2,084 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z15_fighter.png"/></td>
+			<td><img src="img/images/ribbons/z15_fighter_bronze.png"/><br/><img src="img/images/ribbons/z15_fighter_silver.png"/><br/><img src="img/images/ribbons/z15_fighter_gold.png"/></td>
+			<td>Z15 Fighter<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 28h" src="img/npc_spawn.png"/></td>
+			<td>TA 70<br/>HA 85<br/>MA 70<br/>WE 35<br/>EN 32</td>
+			<td>600 Hull<br/>660 Shield<br/>720 <img src="img/images/equipment/armor_c5.png"/> Adamantium (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 100, Firerate: 2">120 MW Particle</span><br/><span title="[Laser] Category: Conventional, Damage: 100, Firerate: 2">120 MW Particle</span><br/><span title="[Missile] Damage: 270, ART: 5, Intelligence: 3">Z700 Avenger (Fighter)</span></td>
+			<td>2,432 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z15_spacepad.png"/></td>
+			<td><img src="img/images/ribbons/z15_spacepad_bronze.png"/><br/><img src="img/images/ribbons/z15_spacepad_silver.png"/><br/><img src="img/images/ribbons/z15_spacepad_gold.png"/></td>
+			<td>Z15 Spacepad<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/></td>
+			<td></td>
+			<td>1,150 Hull<br/>660 Shield<br/>1,052 <img src="img/images/equipment/armor_c5.png"/> Adamantium (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 115, Firerate: 5">Spacepad Artillery</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span></td>
+			<td>3,150 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z16_repair_drone.png"/></td>
+			<td><img src="img/images/ribbons/z16_repair_drone_bronze.png"/><br/><img src="img/images/ribbons/z16_repair_drone_silver.png"/><br/><img src="img/images/ribbons/z16_repair_drone_gold.png"/></td>
+			<td>Z16 Repair Drone<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>HA 85</td>
+			<td>840 Hull<br/>420 Shield<br/>960 <img src="img/images/equipment/armor_c5.png"/> Adamantium (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 126, Firerate: 2">170 MW Particle (Unstable)</span><br/><span title="[Laser] Category: Conventional, Damage: 126, Firerate: 2">170 MW Particle (Unstable)</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span><br/><span title="[Missile] Damage: 240, ART: 4, Intelligence: 2">Modified N500</span></td>
+			<td>3,000 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/z16_fighter.png"/></td>
+			<td><img src="img/images/ribbons/z16_fighter_bronze.png"/><br/><img src="img/images/ribbons/z16_fighter_silver.png"/><br/><img src="img/images/ribbons/z16_fighter_gold.png"/></td>
+			<td>Z16 Fighter<br/><img title="Aggressive (10rnd)" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>HA 105</td>
+			<td>640 Hull<br/>660 Shield (30+)<br/>800 <img src="img/images/equipment/armor_c5.png"/> Adamantium (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 240, Firerate: 2">170 MW Impulse</span><br/><span title="[Laser] Category: Conventional, Damage: 240, Firerate: 2">170 MW Impulse</span><br/><span title="[Missile] Damage: 350, ART: ???, Intelligence: ???">Z700x Avenger</span></td>
+			<td>2,700 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/energy_minnow.png"/></td>
+			<td><img src="img/images/ribbons/energy_minnow_bronze.png"/><br/><img src="img/images/ribbons/energy_minnow_silver.png"/><br/><img src="img/images/ribbons/energy_minnow_gold.png"/><br/></td>
+			<td>Energy Minnow<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/></td>
+			<td>TA 22<br/>HA 23<br/>MA 26<br/>WE 40<br/>EN 22</td>
+			<td>30 Hull<br/>150 <img src="img/images/equipment/armor_e2.png"/> Fermion (x2)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 45, Firerate: 1">Minnow Sparks</span></td>
+			<td>75 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_dragon_young.png"/></td>
+			<td><img src="img/images/ribbons/space_dragon_young_bronze.png"/><br/><img src="img/images/ribbons/space_dragon_young_silver.png"/><br/><img src="img/images/ribbons/space_dragon_young_gold.png"/></td>
+			<td>Young Space Dragon<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very rare" src="img/npc_hold.png"/><img title="Respawn time: 18m" src="img/npc_spawn.png"/></td>
+			<td>TA 16<br/>HA 28<br/>MA 16<br/>WE 18<br/>EN 15</td>
+			<td>120 Hull<br/>60 Electro-Magnetic (x1)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 60, Firerate: 1">Dragon Breath</span></td>
+			<td>30 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_dragon_elder.png"/></td>
+			<td><img src="img/images/ribbons/space_dragon_elder_bronze.png"/><br/><img src="img/images/ribbons/space_dragon_elder_silver.png"/><br/><img src="img/images/ribbons/space_dragon_elder_gold.png"/></td>
+			<td>Elder Space Dragon<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 54m" src="img/npc_spawn.png"/></td>
+			<td>TA 26<br/>HA 30<br/>MA 26<br/>WE 26<br/>EN 20</td>
+			<td>450 Hull<br/>150 Electro-Magnetic (x1)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 48, Firerate: 2">Deadly Dragon Breath</span></td>
+			<td>80 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_dragon_queen.png"/></td>
+			<td><img src="img/images/ribbons/space_dragon_queen_bronze.png"/><br/><img src="img/images/ribbons/space_dragon_queen_silver.png"/><br/><img src="img/images/ribbons/space_dragon_queen_gold.png"/></td>
+			<td>Space Dragon Queen<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 6h 30m" src="img/npc_spawn.png"/></td>
+			<td>TA 51<br/>HA 35<br/>MA 40<br/>WE 40<br/>EN 25</td>
+			<td>600 Hull<br/>600 <img src="img/images/equipment/armor_e2.png"/> Fermion (x2)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 210, Firerate: 1">Unknown Dragon Breath</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 48, Firerate: 2">Energetic Dragon Breath</span><br/><span title="[Missile] Damage: 135, ART: 4, Intelligence: ???">Subspace Ripple</span></td>
+			<td>500 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/slave_trader.png"/></td>
+			<td><img src="img/images/ribbons/slave_trader_bronze.png"/><br/><img src="img/images/ribbons/slave_trader_silver.png"/><br/><img src="img/images/ribbons/slave_trader_gold.png"/></td>
+			<td>Slave Trader<br/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td>TA 45<br/>HA 55<br/>MA 28<br/>WE 45<br/>EN 28</td>
+			<td>460 Hull<br/>660 Shield<br/>125 <img src="img/images/equipment/armor_e4.png"/> Positron (x4)</td>
+			<td><img src="img/images/equipment/MWpar020.png" title="[Laser] Category: Conventional, Damage: 60, Firerate: 2"> 20 MW Particle<br/><img src="img/images/equipment/MTmd120.png" title="[Laser] Category: Electro-Magnetic, Damage: 51, Firerate: 2"> 120 MT Mag Defractor<br/><span title="[Missile] Damage: 315, ART: 3, Intelligence: 4">Illegal Underground Missile</span></td>
+			<td>180 XP<br/>5 Rep.<br/>Loot: <img title="Slaves" src="img/images/res/slaves.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/energybees.png"/></td>
+			<td><img src="img/images/ribbons/energybees_bronze.png"/><br/><img src="img/images/ribbons/energybees_silver.png"/><br/><img src="img/images/ribbons/energybees_gold.png"/></td>
+			<td>Swarm of Energy Bees<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/></td>
+			<td>TA 60<br/>HA 62<br/>MA 60<br/>WE 38<br/>EN 30</td>
+			<td>1,080 Hull<br/>660 Shield<br/>225 <img src="img/images/equipment/armor_e4.png"/>Positron (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 40, Firerate: 3">Positron Stinger</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 40, Firerate: 3">Positron Stinger</span></td>
+			<td>600 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/energy_sparker.png"/></td>
+			<td><img src="img/images/ribbons/energy_sparker_bronze.png"/><br/><img src="img/images/ribbons/energy_sparker_silver.png"/><br/><img src="img/images/ribbons/energy_sparker_gold.png"/></td>
+			<td>Energy Sparker<br/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Retreat hold: Rare" src="img/npc_hold.png"/></td>
+			<td>TA 62<br/>HA 61<br/>MA 62<br/>WE 42<br/>EN 32</td>
+			<td>500 Hull<br/>660 Shield<br/>365 <img src="img/images/equipment/armor_e4.png"/> Positron (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 60, Firerate: 2">Positron Energizer</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 60, Firerate: 2">Positron Energizer</span></td>
+			<td>580 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/solar_banshee.png"/></td>
+			<td><img src="img/images/ribbons/solar_banshee_bronze.png"/><br/><img src="img/images/ribbons/solar_banshee_silver.png"/><br/><img src="img/images/ribbons/solar_banshee_gold.png"/></td>
+			<td>Solar Banshee<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 56<br/>HA 66<br/>MA 55<br/>WE 42<br/>EN 35</td>
+			<td>730 Hull<br/>420 Shield<br/>1,350 <img src="img/images/equipment/armor_e3.png"/> Boson (x3)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 175, Firerate: 4">Hyperfrequent Protuberance</span></td>
+			<td>1,120 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/blue_crystal.png"/></td>
+			<td><img src="img/images/ribbons/blue_crystal_bronze.png"/><br/><img src="img/images/ribbons/blue_crystal_silver.png"/><br/><img src="img/images/ribbons/blue_crystal_gold.png"/></td>
+			<td>Blue Crystal<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Common" src="img/npc_hold.png"/><img title="Respawn time: 6h" src="img/npc_spawn.png"/></td>
+			<td>TA 40<br/>HA 43<br/>MA 40<br/>WE 42<br/>EN 30</td>
+			<td>600 Hull<br/>480 <img src="img/images/equipment/armor_e2.png"/> Fermion (x2)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 39, Firerate: 2">Cold Ray</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 165, Firerate: 1">Light Ice Ray</span><br/><span title="[Missile] Damage: 135, ART: 4, Intelligence: ???">Energy Shockwave</span></td>
+			<td>300 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_crystal.png"/></td>
+			<td><img src="img/images/ribbons/space_crystal_bronze.png"/><br/><img src="img/images/ribbons/space_crystal_silver.png"/><br/><img src="img/images/ribbons/space_crystal_gold.png"/></td>
+			<td>Space Crystal<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 2d" src="img/npc_spawn.png"/></td>
+			<td>TA 60<br/>HA 55<br/>MA 55<br/>WE 40<br/>EN 33</td>
+			<td>1,050 Hull<br/>270 Shield<br/>1,050 <img src="img/images/equipment/armor_e4.png"/> Positron (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 210, Firerate: 1">Ice Ray</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 210, Firerate: 1">Ice Ray</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 210, Firerate: 1">Ice Ray</span></td>
+			<td>1,000 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/cyborg_manta.png"/></td>
+			<td><img src="img/images/ribbons/cyborg_manta_bronze.png"/><br/><img src="img/images/ribbons/cyborg_manta_silver.png"/><br/><img src="img/images/ribbons/cyborg_manta_gold.png"/></td>
+			<td>Cyborg Manta<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Respawn time: 9h" src="img/npc_spawn.png"/></td>
+			<td>TA 45<br/>HA 62<br/>MA 35<br/>WE 30<br/>EN 34</td>
+			<td>500 Hull<br/>355 <img src="img/images/equipment/armor_c4.png"/> Neutronium (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 50, Firerate: 2">Claw Cannon</span><br/><span title="[Missile] Damage: 205, ART: 10, Intelligence: ???">Manta Rocket</span></td>
+			<td>430 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/wormhole.png"/></td>
+			<td><img src="img/images/ribbons/wormhole_bronze.png"/><br/><img src="img/images/ribbons/wormhole_silver.png"/><br/><img src="img/images/ribbons/wormhole_gold.png"/></td>
+			<td>Wormhole Monster<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Respawn time: Rapid" src="img/npc_spawn.png"/></td>
+			<td></td>
+			<td>375 Hull<br/>150 <img src="img/images/equipment/armor_e3.png"/> Boson (x3)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 250, Firerate: 1">Subspace Splitter</span></td>
+			<td>270 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/foregrounds/xhole.png"/></td>
+			<td><img src="img/images/ribbons/xhole_bronze.png"/><br/><img src="img/images/ribbons/xhole_silver.png"/><br/><img src="img/images/ribbons/xhole_gold.png"/></td>
+			<td>X-Hole Monster<br/><img title="Blocking" src="img/npc_block.png"/><img title="Respawn time: Rapid" src="img/npc_spawn.png"/></td>
+			<td>HA 50</td>
+			<td>450 Hull<br/>255 <img src="img/images/equipment/armor_e4.png"/> Positron (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 330, Firerate: 2">X-Subspace Splitter</span></td>
+			<td>700 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_maggot.png"/></td>
+			<td><img src="img/images/ribbons/space_maggot_bronze.png"/><br/><img src="img/images/ribbons/space_maggot_silver.png"/><br/><img src="img/images/ribbons/space_maggot_gold.png"/></td>
+			<td>Space Maggot<br/><img title="Blocking" src="img/npc_block.png"/><img title="Respawn time: 6m" src="img/npc_spawn.png"/></td>
+			<td>TA 15<br/>HA 14<br/>MA 14<br/>WE 22<br/>EN 12</td>
+			<td>300 Hull</td>
+			<td><span title="[Laser] Category: Organic, Damage: 15, Firerate: 1">Slime Hurler</span></td>
+			<td>15 XP<br/>Loot: <img title="Ore" src="img/images/res/ore.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_maggot_mutated.png"/></td>
+			<td><img src="img/images/ribbons/space_maggot_mutated_bronze.png"/><br/><img src="img/images/ribbons/space_maggot_mutated_silver.png"/><br/><img src="img/images/ribbons/space_maggot_mutated_gold.png"/></td>
+			<td>Mutated Space Maggot<br/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 6-12m" src="img/npc_spawn.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 29<br/>HA 35<br/>MA 30<br/>WE 37<br/>EN 18</td>
+			<td>350 Hull<br/>80 <img src="img/images/equipment/armor_o2.png"/> Worm-Slime (x2)</td>
+			<td><span title="[Laser] Category: Organic, Damage: ???, Firerate: 2">Viral Slime Hurler</span></td>
+			<td>130 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/bio_scavenger.png"/></td>
+			<td><img src="img/images/ribbons/bio_scavenger_bronze.png"/><br/><img src="img/images/ribbons/bio_scavenger_silver.png"/><br/><img src="img/images/ribbons/bio_scavenger_gold.png"/></td>
+			<td>Bio Scavenger<br/><img title="Blocking" src="img/npc_block.png"/><img title="Respawn time: 18m" src="img/npc_spawn.png"/></td>
+			<td>TA 18<br/>HA 21<br/>MA 18<br/>WE 23<br/>EN 15</td>
+			<td>300 Hull</td>
+			<td><span title="[Laser] Category: Organic, Damage: 24, Firerate: 1">Bio-Acid Secretor</span></td>
+			<td>40 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/sarracenia.png"/></td>
+			<td><img src="img/images/ribbons/sarracenia_bronze.png"/><br/><img src="img/images/ribbons/sarracenia_silver.png"/><br/><img src="img/images/ribbons/sarracenia_gold.png"/></td>
+			<td>Sarracenia<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/></td>
+			<td>TA 35<br/>HA 21<br/>MA 35<br/>WE 32<br/>EN 20</td>
+			<td>585 Hull<br/>345 Organic (x1)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 3">Death Spores</span></td>
+			<td>90 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/drosera.png"/></td>
+			<td><img src="img/images/ribbons/drosera_bronze.png"/><br/><img src="img/images/ribbons/drosera_silver.png"/><br/><img src="img/images/ribbons/drosera_gold.png"/></td>
+			<td>Drosera<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Rare" src="img/npc_hold.png"/></td>
+			<td>TA 55<br/>HA 26<br/>MA 41<br/>WE 39<br/>EN 24</td>
+			<td>375 Hull<br/>495 <img src="img/images/equipment/armor_o2.png"/> Worm-Slime (x2)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 3">Death Spores</span></td>
+			<td>140 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_worm.png"/></td>
+			<td><img src="img/images/ribbons/space_worm_bronze.png"/><br/><img src="img/images/ribbons/space_worm_silver.png"/><br/><img src="img/images/ribbons/space_worm_gold.png"/></td>
+			<td>Space Worm<br/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 1h" src="img/npc_spawn.png"/></td>
+			<td>TA 22<br/>HA 35<br/>MA 30<br/>WE 22<br/>EN 20</td>
+			<td>300 Hull<br/>60 Organic (x1)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Acid Slime Hurler</span></td>
+			<td>60 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_worm_albino.png"/></td>
+			<td><img src="img/images/ribbons/space_worm_albino_bronze.png"/><br/><img src="img/images/ribbons/space_worm_albino_silver.png"/><br/><img src="img/images/ribbons/space_worm_albino_gold.png"/></td>
+			<td>Space Worm Albino<br/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 3h" src="img/npc_spawn.png"/></td>
+			<td>TA 22<br/>HA 33<br/>MA 30<br/>WE 26<br/>EN 20</td>
+			<td>330 Hull<br/>90 Organic (x1)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Acid Slime Hurler</span></td>
+			<td>60 XP<br/>Loot: <img title="Ore" src="img/images/res/ore.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/gorefangling.png"/></td>
+			<td><img src="img/images/ribbons/gorefangling_bronze.png"/><br/><img src="img/images/ribbons/gorefangling_silver.png"/><br/><img src="img/images/ribbons/gorefangling_gold.png"/></td>
+			<td>Gorefangling<br/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/></td>
+			<td>TA 18<br/>HA 21<br/>MA 18<br/>WE 23<br/>EN 15</td>
+			<td>150 Hull<br/>150 Organic (x1)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 25, Firerate: 3">Small Gore-Fang</span></td>
+			<td>45 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/gorefanglings.png"/></td>
+			<td><img src="img/images/ribbons/gorefanglings_bronze.png"/><br/><img src="img/images/ribbons/gorefanglings_silver.png"/><br/><img src="img/images/ribbons/gorefanglings_gold.png"/><br/></td>
+			<td>Swarm of Gorefanglings<br/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td>HA 25</td>
+			<td>300 Hull<br/>300 Organic (x1)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 25, Firerate: 3">Small Gore-Fang</span><br/><span title="[Laser] Category: Conventional, Damage: 25, Firerate: 3">Small Gore-Fang</span><br/><span title="[Missile] Damage: 175, ART: 4, Intelligence: ???">Disintegrating Net</span></td>
+			<td>95 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/gorefang.png"/></td>
+			<td><img src="img/images/ribbons/gorefang_bronze.png"/><br/><img src="img/images/ribbons/gorefang_silver.png"/><br/><img src="img/images/ribbons/gorefang_gold.png"/></td>
+			<td>Gorefang<br/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td></td>
+			<td>270 Hull<br/>260 <img src="img/images/equipment/armor_o3.png"/> Mykoplasmic (x3)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 73, Firerate: 1">Gore-Fang</span><br/><span title="[Laser] Category: Organic, Damage: 73, Firerate: 1">Gore-Fang</span></td>
+			<td>150 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/blood_amoeba.png"/></td>
+			<td><img src="img/images/ribbons/blood_amoeba_bronze.png"/><br/><img src="img/images/ribbons/blood_amoeba_silver.png"/><br/><img src="img/images/ribbons/blood_amoeba_gold.png"/></td>
+			<td>Blood Amoeba<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/></td>
+			<td>TA 42<br/>HA 42<br/>MA 41<br/>WE 31<br/>EN 25</td>
+			<td>615 Hull<br/>450 Organic (x1)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 36, Firerate: 2">Amoeba Clots</span><br/><span title="[Missile] Damage: 135, ART: 4, Intelligence: ???">Amoeba Blob</span></td>
+			<td>170 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/ice_beast.png"/></td>
+			<td><img src="img/images/ribbons/ice_beast_bronze.png"/><br/><img src="img/images/ribbons/ice_beast_silver.png"/><br/><img src="img/images/ribbons/ice_beast_gold.png"/></td>
+			<td>Ice Beast<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very rare" src="img/npc_hold.png"/></td>
+			<td>TA 41<br/>HA 45<br/>MA 38<br/>WE 40<br/>EN 24</td>
+			<td>225 Hull<br/>525 Organic (x1)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Glacial Blast</span><br/><span title="[Missile] Damage: 320, ART: 4, Intelligence: ???">Glacial Spikes</span></td>
+			<td>90 XP<br/>Loot: <img title="Water" src="img/images/res/water.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/roidworm_horde.png"/></td>
+			<td><img src="img/images/ribbons/roidworm_horde_bronze.png"/><br/><img src="img/images/ribbons/roidworm_horde_silver.png"/><br/><img src="img/images/ribbons/roidworm_horde_gold.png"/></td>
+			<td>Roidworm Horde<br/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 6h" src="img/npc_spawn.png"/></td>
+			<td>TA 50<br/>HA 55<br/>MA 50<br/>WE 42<br/>EN 28</td>
+			<td>900 Hull<br/>600 <img src="img/images/equipment/armor_o2.png"/> Worm-Slime (x2)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: 160, Firerate: 1">Roid Plasma</span><br/><span title="[Laser] Category: Conventional, Damage: 160, Firerate: 1">Roid Plasma</span><br/><span title="[Missile] Damage: 255, ART: 4, Intelligence: ???">Tiny Asteroid</span></td>
+			<td>570 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/frost_crystal.png"/></td>
+			<td><img src="img/images/ribbons/frost_crystal_bronze.png"/><br/><img src="img/images/ribbons/frost_crystal_silver.png"/><br/><img src="img/images/ribbons/frost_crystal_gold.png"/></td>
+			<td>Frost Crystal<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/></td>
+			<td>TA 51<br/>HA 46<br/>MA 51<br/>WE 35<br/>EN 25</td>
+			<td>600 Hull<br/>265 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 106, Firerate: 1">Glacial Ripple</span><br/><span title="[Laser] Category: Organic, Damage: 106, Firerate: 1">Glacial Ripple</span><br/><span title="[Missile] Damage: 740, ART: ???, Intelligence: ???">Big Glacial Spikes</span><br/><span title="[Missile] Damage: 420, ART: ???, Intelligence: ???">Glacial Spikes (Crystal)</span></td>
+			<td>520 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/medusa_swarmlings.png"/></td>
+			<td><img src="img/images/ribbons/medusa_swarmlings_bronze.png"/><br/><img src="img/images/ribbons/medusa_swarmlings_silver.png"/><br/><img src="img/images/ribbons/medusa_swarmlings_gold.png"/></td>
+			<td>Medusa Swarmlings<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/></td>
+			<td>TA 60<br/>HA 66<br/>MA 62<br/>WE 37<br/>EN 30</td>
+			<td>450 Hull<br/>120 Shield<br/>750 <img src="img/images/equipment/armor_o3.png"/> Mykoplasmic (x3)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span></td>
+			<td>800 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/medusa.png"/></td>
+			<td><img src="img/images/ribbons/medusa_bronze.png"/><br/><img src="img/images/ribbons/medusa_silver.png"/><br/><img src="img/images/ribbons/medusa_gold.png"/></td>
+			<td>Medusa<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 64<br/>HA 63<br/>MA 64<br/>WE 42<br/>EN 30</td>
+			<td>900 Hull<br/>120 Shield<br/>1,350 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 78, Firerate: 2">Big Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Missile] Damage: 255, ART: 4, Intelligence: ???">Energy Shockwave (Medusa)</span></td>
+			<td>1,790 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/stheno_swarmlings.png"/></td>
+			<td><img src="img/images/ribbons/stheno_swarmlings_bronze.png"/><br/><img src="img/images/ribbons/stheno_swarmlings_silver.png"/><br/><img src="img/images/ribbons/stheno_swarmlings_gold.png"/></td>
+			<td>Stheno Swarmlings<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 55<br/>HA 70<br/>MA 65<br/>WE 38<br/>EN 33</td>
+			<td>450 Hull<br/>270 Shield<br/>500 <img src="img/images/equipment/armor_o3.png"/> Mykoplasmic (x3)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 45, Firerate: 3">Small Deformed Outgrowth</span><br/><span title="[Laser] Category: Organic, Damage: 45, Firerate: 3">Small Deformed Outgrowth</span><br/><span title="[Missile] Damage: 175, ART: 1, Intelligence: ???">Bags of Nanoblobs</span></td>
+			<td>750 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/stheno.png"/></td>
+			<td><img src="img/images/ribbons/stheno_bronze.png"/><br/><img src="img/images/ribbons/stheno_silver.png"/><br/><img src="img/images/ribbons/stheno_gold.png"/></td>
+			<td>Stheno<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 55<br/>HA 70<br/>MA 55<br/>WE 42<br/>EN 32</td>
+			<td>1,250 Hull<br/>120 Shield<br/>1,750 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 100, Firerate: 2">Deformed Outgrowth</span><br/><span title="[Missile] Damage: 100, ART: 7, Intelligence: ???">Microblobs</span></td>
+			<td>2,300 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/euryale_swarmlings.png"/></td>
+			<td><img src="img/images/ribbons/euryale_swarmlings_bronze.png"/><br/><img src="img/images/ribbons/euryale_swarmlings_silver.png"/><br/><img src="img/images/ribbons/euryale_swarmlings_gold.png"/></td>
+			<td>Euryale Swarmlings<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 75<br/>HA 72<br/>MA 75<br/>WE 43<br/>EN 38</td>
+			<td>500 Hull<br/>270 Shield<br/>950 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 110, Firerate: 2">Undeveloped Outer Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 40, Firerate: 3">Undeveloped Inner Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 40, Firerate: 3">Undeveloped Inner Tentacles</span></td>
+			<td>1,400 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/euryale.png"/></td>
+			<td><img src="img/images/ribbons/euryale_bronze.png"/><br/><img src="img/images/ribbons/euryale_silver.png"/><br/><img src="img/images/ribbons/euryale_gold.png"/></td>
+			<td>Euryale<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 100<br/>HA 95<br/>MA 85<br/>WE 60<br/>EN 55</td>
+			<td>2,000 Hull<br/>600 Shield<br/>1,450 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 150, Firerate: 2">Outer Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 50, Firerate: 3">Inner Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 50, Firerate: 3">Inner Tentacles</span></td>
+			<td>4,800 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/nebula_serpent.png"/></td>
+			<td><img src="img/images/ribbons/nebula_serpent_bronze.png"/><br/><img src="img/images/ribbons/nebula_serpent_silver.png"/><br/><img src="img/images/ribbons/nebula_serpent_gold.png"/></td>
+			<td>Nebula Serpent<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Rare" src="img/npc_hold.png"/></td>
+			<td>TA 38<br/>HA 35<br/>MA 38<br/>WE 35<br/>EN 22</td>
+			<td>330 Hull<br/>500 <img src="img/images/equipment/armor_o2.png"/> Worm-Slime (x2)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 90, Firerate: 1">Biotoxic Breath</span><br/><span title="[Missile] Damage: 55, ART: 7, Intelligence: ???">Serpent Quill</span><br/><span title="[Missile] Damage: 400, ART: 2, Intelligence: ???">Serpent Scales</span></td>
+			<td>185 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/nebula_mole.png"/></td>
+			<td><img src="img/images/ribbons/nebula_mole_bronze.png"/><br/><img src="img/images/ribbons/nebula_mole_silver.png"/><br/><img src="img/images/ribbons/nebula_mole_gold.png"/></td>
+			<td>Nebula Mole<br/><img title="Roaming" src="img/npc_move.png"/><img title="Cloaking (Nebula)" src="img/npc_cloak.png"/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td>HA 65<br/>WE 45</td>
+			<td>390 Hull<br/>330 <img src="img/images/equipment/armor_o3.png"/> Mykoplasmic (x3)</td>
+			<td></td>
+			<td>650 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/eulerian.png"/></td>
+			<td><img src="img/images/ribbons/eulerian_bronze.png"/><br/><img src="img/images/ribbons/eulerian_silver.png"/><br/><img src="img/images/ribbons/eulerian_gold.png"/></td>
+			<td>Eulerian<br/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td></td>
+			<td>300 Hull<br/>240 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td></td>
+			<td>250 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/dreadscorp.png"/></td>
+			<td><img src="img/images/ribbons/dreadscorp_bronze.png"/><br/><img src="img/images/ribbons/dreadscorp_silver.png"/><br/><img src="img/images/ribbons/dreadscorp_gold.png"/></td>
+			<td>Dreadscorp</td>
+			<td>TA 65<br/>HA 80<br/>MA 60<br/>WE 45<br/>EN 35</td>
+			<td>600 Hull<br/>990 <img src="img/images/equipment/armor_o3.png"/> Mykoplasmic (x3)</td>
+			<td></td>
+			<td>1,080 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/starclaw.png"/></td>
+			<td><img src="img/images/ribbons/starclaw_bronze.png"/><br/><img src="img/images/ribbons/starclaw_silver.png"/><br/><img src="img/images/ribbons/starclaw_gold.png"/></td>
+			<td>Starclaw<br/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td>HA 62</td>
+			<td>850 Hull<br/>270 Shield<br/>550 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td></td>
+			<td>2,750 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/infected_creature.png"/></td>
+			<td><img src="img/images/ribbons/infected_creature_bronze.png"/><br/><img src="img/images/ribbons/infected_creature_silver.png"/><br/><img src="img/images/ribbons/infected_creature_gold.png"/></td>
+			<td>Infected Creature<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 50<br/>HA 55<br/>MA 50<br/>WE 45<br/>EN 32</td>
+			<td>500 Hull<br/>270 Shield<br/>590 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td><span title="[Laser] Category: ???, Damage: ???, Firerate: ???">Random</span></td>
+			<td>750 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/glowprawn.png"/></td>
+			<td><img src="img/images/ribbons/glowprawn_bronze.png"/><br/><img src="img/images/ribbons/glowprawn_silver.png"/><br/><img src="img/images/ribbons/glowprawn_gold.png"/></td>
+			<td>Glowprawn<br/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: Very common" src="img/npc_hold.png"/></td>
+			<td>HA 65<br/>MA 78</td>
+			<td>250 Hull<br/>420 Shield<br/>1,200 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/preywinder.png"/></td>
+			<td><img src="img/images/ribbons/preywinder_bronze.png"/><br/><img src="img/images/ribbons/preywinder_silver.png"/><br/><img src="img/images/ribbons/preywinder_gold.png"/></td>
+			<td>Preywinder<br/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 70<br/>HA 90<br/>MA 70</td>
+			<td>1,500 Hull<br/>120 Shield<br/>1,050 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td></td>
+			<td>3,480 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/ancient_crystal.png"/></td>
+			<td><img src="img/images/ribbons/ancient_crystal_bronze.png"/><br/><img src="img/images/ribbons/ancient_crystal_silver.png"/><br/><img src="img/images/ribbons/ancient_crystal_gold.png"/></td>
+			<td>Ancient Crystal<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/></td>
+			<td>TA 58<br/>HA 60<br/>MA 58<br/>WE 45<br/>EN 28</td>
+			<td>1,250 Hull<br/>420 Shield<br/>1,100 <img src="img/images/equipment/armor_c4.png"/> Pardus (x4)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 260, Firerate: 1">Ancient Shock</span><br/><span title="[Laser] Category: Pardus, Damage: 260, Firerate: 1">Ancient Shock</span><br/><span title="[Missile] Damage: 1000, ART: 1, Intelligence: ???">Ancient Sting</span></td>
+			<td>2,050 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/exocrab.png"/></td>
+			<td><img src="img/images/ribbons/exocrab_bronze.png"/><br/><img src="img/images/ribbons/exocrab_silver.png"/><br/><img src="img/images/ribbons/exocrab_gold.png"/></td>
+			<td>Exo Crab<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Respawn time: 11m" src="img/npc_spawn.png"/></td>
+			<td>TA 33<br/>HA 45<br/>MA 40<br/>WE 43<br/>EN 25</td>
+			<td>255 Hull<br/>105 <img src="img/images/equipment/armor_c4.png"/> Pardus (x4)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 84, Firerate: 1">Exo Ray</span><br/><span title="[Laser] Category: Pardus, Damage: 84, Firerate: 1">Exo Ray</span></td>
+			<td>130 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/manifestation_verdant.png"/></td>
+			<td><img src="img/images/ribbons/manifestation_verdant_bronze.png"/><br/><img src="img/images/ribbons/manifestation_verdant_silver.png"/><br/><img src="img/images/ribbons/manifestation_verdant_gold.png"/></td>
+			<td>Verdant Manifestation<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 28<br/>HA 30<br/>MA 28<br/>WE 25<br/>EN 23</td>
+			<td>60 Hull<br/>190 <img src="img/images/equipment/armor_c1.png"/> Pardus (x1)</td>
+			<td><span title="[Laser] Category: ???, Damage: ???, Firerate: ???">E-3 Bubbles</span></td>
+			<td>70 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/manifestation_developed.png"/></td>
+			<td><img src="img/images/ribbons/manifestation_developed_bronze.png"/><br/><img src="img/images/ribbons/manifestation_developed_silver.png"/><br/><img src="img/images/ribbons/manifestation_developed_gold.png"/></td>
+			<td>Developed Manifestation<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 35<br/>HA 50<br/>MA 35<br/>WE 36<br/>EN 23</td>
+			<td>110 Hull<br/>120 Shield<br/>220 <img src="img/images/equipment/armor_c3.png"/> Pardus (x3)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 55, Firerate: 2">E-4 Bubbles</span></td>
+			<td>185 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/manifestation_ripe.png"/></td>
+			<td><img src="img/images/ribbons/manifestation_ripe_bronze.png"/><br/><img src="img/images/ribbons/manifestation_ripe_silver.png"/><br/><img src="img/images/ribbons/manifestation_ripe_gold.png"/></td>
+			<td>Ripe Manifestation<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 62<br/>HA 58<br/>MA 61<br/>WE 45<br/>EN 32</td>
+			<td>270 Hull<br/>270 Shield<br/>660 <img src="img/images/equipment/armor_c3.png"/> Pardus (x3)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 55, Firerate: 2">E-4 Bubbles</span><br/><span title="[Laser] Category: Pardus, Damage: 220, Firerate: 1">Exotic Blaze</span></td>
+			<td>1,200 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/oblivion_vortex.png"/></td>
+			<td><img src="img/images/ribbons/oblivion_vortex_bronze.png"/><br/><img src="img/images/ribbons/oblivion_vortex_silver.png"/><br/><img src="img/images/ribbons/oblivion_vortex_gold.png"/></td>
+			<td>Oblivion Vortex<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 62<br/>HA 60<br/>MA 58<br/>EN 32</td>
+			<td>450 Hull<br/>420 Shield<br/>810 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 220, Firerate: 1">Exotic Blaze</span><br/><span title="[Laser] Category: Pardus, Damage: 220, Firerate: 1">Exotic Blaze</span><br/><span title="[Missile] Damage: 540, ART: 4, Intelligence: ???">Oblivion Blaze</span></td>
+			<td>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/lucidi_squad.png"/></td>
+			<td><img src="img/images/ribbons/lucidi_squad_bronze.png"/><br/><img src="img/images/ribbons/lucidi_squad_silver.png"/><br/><img src="img/images/ribbons/lucidi_squad_gold.png"/></td>
+			<td>Lucidi Squad<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Cloaking (Open space)" src="img/npc_cloak.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td>TA 107<br/>HA 114<br/>MA 107<br/>WE 100<br/>EN 85</td>
+			<td>425 Hull<br/>900 Shield<br/>625 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><img src="img/images/equipment/par04.png"/> <span title="[Laser] Category: Pardus, Damage: 90, Firerate: 2">Lucidi Plasma Thrower</span><br/><img src="img/images/equipment/par04.png"/> <span title="[Laser] Category: Pardus, Damage: 90, Firerate: 2">Lucidi Plasma Thrower</span><br/><img src="img/images/equipment/par04.png"/> <span title="[Laser] Category: Pardus, Damage: 90, Firerate: 2">Lucidi Plasma Thrower</span><br/><span title="[Missile] Damage: 1200, ART: 2, Intelligence: ???">Lucidi Strike Rocket</span></td>
+			<td>7,500 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/lucidi_warship.png"/></td>
+			<td><img src="img/images/ribbons/lucidi_warship_bronze.png"/><br/><img src="img/images/ribbons/lucidi_warship_silver.png"/><br/><img src="img/images/ribbons/lucidi_warship_gold.png"/></td>
+			<td>Lucidi Warship<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td></td>
+			<td></td>
+			<td><span title="[Laser] Category: Conventional, Damage: ???, Firerate: 2">Lucidi Gunturrent</span><br/><span title="[Laser] Category: Conventional, Damage: ???, Firerate: 2">Lucidi Gunturrent</span><br/><span title="[Missile] Damage: 800, ART: 10, Intelligence: ???">Lucidi Ultimate Redeamer</span></td>
+			<td>14,215 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/lucidi_mothership.png"/></td>
+			<td><img src="img/images/ribbons/lucidi_mothership_bronze.png"/><br/><img src="img/images/ribbons/lucidi_mothership_silver.png"/><br/><img src="img/images/ribbons/lucidi_mothership_gold.png"/></td>
+			<td>Lucidi Mothership<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td></td>
+			<td>2,000 Hull<br/>1,800 Shield<br/>1,550 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><span title="[Laser] Category: Conventional, Damage: ???, Firerate: 2">Lucidi Cannon</span><br/><span title="[Laser] Category: Conventional, Damage: ???, Firerate: 2">Lucidi Cannon</span><br/><span title="[Laser] Category: Conventional, Damage: ???, Firerate: 2">Lucidi Cannon</span><br/><span title="[Missile] Damage: 800, ART: 10, Intelligence: ???">Lucidi Ultimate Redeamer</span></td>
+			<td>34,463 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/shadow.png"/></td>
+			<td><img src="img/images/ribbons/shadow_bronze.png"/><br/><img src="img/images/ribbons/shadow_silver.png"/><br/><img src="img/images/ribbons/shadow_gold.png"/></td>
+			<td>Shadow<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Respawn time: 21d" src="img/npc_spawn.png"/></td>
+			<td></td>
+			<td>2,500 Hull<br/>400 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 400, Firerate: 1">Unanalizable weapon</span><br/><span title="[Laser] Category: Pardus, Damage: 400, Firerate: 1">Unanalizable weapon</span></td>
+			<td>5,000 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/feral_serpent.png"/></td>
+			<td></td>
+			<td>Feral Serpent<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/></td>
+			<td></td>
+			<td>440 Hull<br/>1,760 Shield<br/>440 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 50, Firerate: 3">Feral Venom</span><br/><span title="[Laser] Category: Pardus, Damage: 50, Firerate: 3">Feral Venom</span><br/><span title="[Laser] Category: Pardus, Damage: 75, Firerate: 2">Tail Lash</span></td>
+			<td>10,155 XP</td>
+		</tr>
+
+		<tr>
+			<td><img src="img/images/opponents/hidden_drug_stash.png"/></td>
+			<td></td>
+			<td>Hidden Drug Stash<br/><img title="Cloaking (Energy)" src="img/npc_cloak.png"/><img title="Respawn time: Random" src="img/npc_spawn.png"/></td>
+			<td>TA 26<br/>HA 30<br/>MA 26<br/>WE 35<br/>EN 28</td>
+			<td>150 Hull<br/>375 <img src="img/images/equipment/armor_c3.png"/> Zortrium (x3)</td>
+			<td><img src="img/images/chat/quest.png"/> <span title="[Laser] Category: ???, Damage: ???, Firerate: ???">Random</span></td>
+			<td>50 XP<br/>Loot: <img title="Drugs" src="img/images/res/drugs.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_clam.png"/></td>
+			<td><img src="img/images/ribbons/space_clam_bronze.png"/><br/><img src="img/images/ribbons/space_clam_silver.png"/><br/><img src="img/images/ribbons/space_clam_gold.png"/></td>
+			<td>Space Clam<br/><img title="Retreat hold: Common" src="img/npc_hold.png"/></td>
+			<td>HA 25</td>
+			<td>20 Hull<br/>330 <img src="img/images/equipment/armor_o2.png"/> Worm-Slime (x2)</td>
+			<td><span title="[Missile] Damage: 100, ART: 4, Intelligence: ???">Concentrated Clam Saliva</span></td>
+			<td>70 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/><img title="Ore" src="img/images/res/ore.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/space_worm_mutated.png"/></td>
+			<td><img src="img/images/ribbons/space_worm_mutated_bronze.png"/><br/><img src="img/images/ribbons/space_worm_mutated_silver.png"/><br/><img src="img/images/ribbons/space_worm_mutated_gold.png"/></td>
+			<td>Mutated Space Worm<br/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 55<br/>HA 55<br/>MA 55<br/>WE 40<br/>EN 30</td>
+			<td>350 Hull<br/>165 <img src="img/images/equipment/armor_o4.png"/> Mutagen (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 120, Firerate: 1">Viral Acid Slime Hurler</span><br/><span title="[Laser] Category: Organic, Damage: ???, Firerate: ???">Contaminated Tail-Spikes</span></td>
+			<td>490 XP<br/>Loot: <img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/rive_crystal.png"/></td>
+			<td><img src="img/images/ribbons/rive_crystal_bronze.png"/><br/><img src="img/images/ribbons/rive_crystal_silver.png"/><br/><img src="img/images/ribbons/rive_crystal_gold.png"/></td>
+			<td>Rive Crystal<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 60<br/>HA 60<br/>MA 60<br/>WE 45<br/>EN 35</td>
+			<td>550 Hull<br/>270 Shield<br/>720 <img src="img/images/equipment/armor_c4.png"/>Pardus (x4)</td>
+			<td><span title="[Laser] Category: Pardus, Damage: 200, Firerate: 1">Hyperfrequent Pulsar</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: ???, Firerate: 4">Rive Wave 80</span></td>
+			<td>1,550 XP</td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/mutated_medusa.png"/></td>
+			<td><img src="img/images/ribbons/mutated_medusa_bronze.png"/><br/><img src="img/images/ribbons/mutated_medusa_silver.png"/><br/><img src="img/images/ribbons/mutated_medusa_gold.png"/></td>
+			<td>Mutated Medusa<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Very often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 85<br/>HA 85<br/>MA 90<br/>WE 45<br/>EN 35</td>
+			<td>600 Hull<br/>120 Shield<br/>1,350 <img src="img/images/equipment/armor_c4.png"/> Pardus (x4)</td>
+			<td><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Laser] Category: Organic, Damage: 42, Firerate: 2">Small Tentacles</span><br/><span title="[Laser] Category: Pardus, Damage: 90, Firerate: 2">Big Mutated Tentacles</span><br/><span title="[Missile] Damage: 255, ART: 4, Intelligence: ???">Energy Shockwave (Medusa)</span></td>
+			<td>2,400 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/asp_hatchlings.png"/></td>
+			<td><img src="img/images/ribbons/asp_hatchlings_bronze.png"/><br/><img src="img/images/ribbons/asp_hatchlings_silver.png"/><br/><img src="img/images/ribbons/asp_hatchlings_gold.png"/></td>
+			<td>Asp Hatchlings<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 67<br/>HA 60<br/>MA 55<br/>WE 42<br/>EN 30</td>
+			<td>225 Hull<br/>270 Shield<br/>560 <img src="img/images/equipment/armor_c4.png"/> Pardus (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 50, Firerate: 2">Small Asp Shocker</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 50, Firerate: 2">Small Asp Shocker</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 50, Firerate: 2">Small Asp Shocker</span></td>
+			<td>725 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/asp_mother.png"/></td>
+			<td><img src="img/images/ribbons/asp_mother_bronze.png"/><br/><img src="img/images/ribbons/asp_mother_silver.png"/><br/><img src="img/images/ribbons/asp_mother_gold.png"/></td>
+			<td>Asp Mother<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Retreat hold: Often" src="img/npc_hold.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 58<br/>HA 65<br/>MA 55<br/>WE 35<br/>EN 30</td>
+			<td>1,000 Hull<br/>420 Shield<br/>740 <img src="img/images/equipment/armor_c5.png"/> Pardus (x5)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 110, Firerate: 1">Asp Shocker</span><br/><span title="[Laser] Category: Organic, Damage: 110, Firerate: 1">Asp Spit</span><br/><span title="[Laser] Category: Pardus, Damage: 110, Firerate: 1">Asp Stinger</span></td>
+			<td>1,500 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/xalgucennia.png"/></td>
+			<td><img src="img/images/ribbons/xalgucennia_bronze.png"/><br/><img src="img/images/ribbons/xalgucennia_silver.png"/><br/><img src="img/images/ribbons/xalgucennia_gold.png"/></td>
+			<td>Xalgucennia<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Retreat hold: ???" src="img/npc_holdx.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>TA 55<br/>HA 62<br/>MA 53<br/>WE 38<br/>EN 28</td>
+			<td>780 Hull<br/>860 <img src="img/images/equipment/armor_c4.png"/> Pardus (x4)</td>
+			<td><span title="[Laser] Category: Electro-Magnetic, Damage: 80, Firerate: 2">Acid Tentacles</span><br/><span title="[Laser] Category: Electro-Magnetic, Damage: 80, Firerate: 2">Acid Tentacles</span><br/><span title="[Laser] Category: Conventional, Damage: 270, Firerate: 1">Huge Cosmic Eye</span></td>
+			<td>1,900 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/images/opponents/ceylacennia.png"/></td>
+			<td><img src="img/images/ribbons/ceylacennia_bronze.png"/><br/><img src="img/images/ribbons/ceylacennia_silver.png"/><br/><img src="img/images/ribbons/ceylacennia_gold.png"/></td>
+			<td>Ceylacennia<br/><img title="Aggressive" src="img/npc_aggr.png"/><img title="Blocking" src="img/npc_block.png"/><img title="Roaming" src="img/npc_move.png"/><img title="Cloaking (Viral cloud)" src="img/npc_cloak.png"/><img title="Pardus Core only." src="img/npc_pardus.png"/></td>
+			<td>HA 65</td>
+			<td>1,200 Hull<br/>270 Shield<br/>1,040 <img src="img/images/equipment/armor_o5.png"/> Genotrope (x5)</td>
+			<td></td>
+			<td>4,450 XP<br/>Loot: <img title="Exotic Crystal" src="img/images/res/exotic_crystal.png"/><img title="Bio Waste" src="img/images/res/biowaste.png"/></td>
+		</tr>
+
+	</tbody>
+</table>
+</div>
+
+
+</div>
+
+
+<div class="aa-footer">
+	&copy; Jivemaster - All Rights Reserved
+</div>
+
+
+</body>
+</html>
