@@ -1,0 +1,79 @@
+table.tbl_tasks {
+    border: 1px outset #a0b1c9;
+    background: #09093a;
+}
+
+table.tbl_tasks tr {
+    cursor: pointer;
+}
+
+tr.inactive td {
+    background: #080832 !important;
+}
+
+div.dlg_task {
+    font-size: 95%;
+}
+
+div.dlg_task .progress {
+    font-style: italic;
+}
+
+div.dlg_task .completed {
+    font-style: italic;
+}
+
+div.dlg_task .task_status {
+    font-style: italic;
+}
+
+.dlg_error {
+    color: #ff0000;
+}
+
+.radius_sector {
+    cursor: pointer;
+}
+
+.pilots_completed {
+    cursor: pointer;
+}
+
+.task_comments {
+    margin-bottom: 1em;
+}
+
+.task_comments > blockquote {
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+    word-wrap: break-word;
+    font-size: 90%;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.task_comments > blockquote:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3em;
+    font-family: Georgia, serif;
+    content: "\201C";
+}
+
+.task_comments > blockquote:after {
+    position: absolute;
+    bottom: -0.5em;
+    right: 0;
+    font-size: 3em;
+    font-family: Georgia, serif;
+    content: "\201D";
+}
+
+.task_comments > .last_modified {
+    margin-top: -1.5em;
+    margin-left: 1em;
+    font-size: 11px;
+    color: #81818f;
+}

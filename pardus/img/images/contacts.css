@@ -1,0 +1,50 @@
+table.tbl_contacts {
+    background: #09093a;
+    text-align: center;
+}
+
+table.tbl_contacts tbody tr td:first-child {
+    text-align: left;
+}
+
+table.tbl_contacts thead th {
+    padding: 2px;
+}
+
+table.tbl_contacts tbody tr:nth-child(even) {
+    background: #0f0f49;
+}
+
+table.tbl_contacts tbody tr:nth-child(odd) {
+    background: #0c0c3e;
+}
+
+table.tbl_contacts tbody td img {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    margin: 4px;
+}
+
+table.tbl_contacts thead tr .header {
+    cursor: pointer;
+}
+
+table.tbl_contacts thead tr .header:after {
+    content: " \21F5 ";
+    font-weight: normal;
+}
+
+table.tbl_contacts thead tr .headerSortDown, table.tbl_contacts thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
+table.tbl_contacts thead tr .headerSortUp:after {
+    content: " \2191 ";
+    font-weight: normal;
+}
+
+table.tbl_contacts thead tr .headerSortDown:after {
+    content: " \2193 ";
+    font-weight: normal;
+}

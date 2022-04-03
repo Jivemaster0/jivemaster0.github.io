@@ -1,0 +1,146 @@
+/* FIX IE6 Scrollbars bug - Leave this in! */
+html { overflow-x: auto; } 
+
+/* Body entry, change forum page background colour, default font, font size, etc. Leave text-align:center to center board content
+   #ipwrapper will set text-align back to left for the forum. Any other tables / divs you use must use text-align:left to re-align
+   the content properly. This is a work around to a known Internet Explorer bug */
+body { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #BABAC4; margin:0px;padding:0px;background-color:#00001C; text-align:center }
+table, tr, td { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #BABAC4; }
+
+/* MAIN WRAPPER: Adjust forum width here. Leave margins alone to auto-center content */
+#ipbwrapper { text-align:left; width:95%; margin-left:auto;margin-right:auto }
+#ipbwrapper img { vertical-align:middle; border: 0px }
+
+a:link, a:visited, a:active { text-decoration: underline; color: #D0D1D9 }
+a:hover { color: #E5E5FF; text-decoration:underline }
+
+fieldset.search { padding:6px; line-height:150% }
+label      { cursor:pointer; }
+form       { display:inline; }
+img.attach { border:2px outset #EEF2F7;padding:2px }
+
+.googleroot  { padding:6px; line-height:130% }
+.googlechild { padding:6px; margin-left:30px; line-height:130% }
+.googlebottom, .googlebottom a:link, .googlebottom a:visited, .googlebottom a:active { font-size:11px; color: #DDDDDD; }
+.googlish, .googlish a:link, .googlish a:visited, .googlish a:active { font-size:14px; font-weight:bold; color:#EEEEEE; }
+.googlepagelinks { font-size:1.1em; letter-spacing:1px }
+.googlesmall, .googlesmall a:link, .googlesmall a:active, .googlesmall a:visited { font-size:10px; color:#888888 }
+
+li.helprow { padding:0px; margin:0px 0px 10px 0px }
+ul#help    { padding:0px 0px 0px 15px }
+
+option.cat { font-weight:bold; }
+option.sub { font-weight:bold;color:#777777 }
+.caldate   { text-align:right;font-weight:bold;font-size:11px;color:#AAAAAA;background-color:#00001C;padding:4px;margin:0px }
+
+.warngood { color:green }
+.warnbad  { color:red }
+
+#padandcenter { margin-left:auto;margin-right:auto;text-align:center;padding:14px 0px 14px 0px }
+
+#profilename { font-size:28px; font-weight:bold; }
+#calendarname { font-size:22px; font-weight:bold; }
+
+#photowrap { padding:6px; }
+#phototitle { font-size:24px; border-bottom:1px solid black }
+#photoimg   { text-align:center; margin-top:15px } 
+
+#ucpmenu    { line-height:150%;width:22%; border:1px solid #345487;background-color: #000000 }
+#ucpmenu p  { padding:2px 5px 6px 9px;margin:0px; }
+#ucpcontent { background-color: #000000; border:1px solid #345487;line-height:150%; width:auto }
+#ucpcontent p  { padding:10px;margin:0px; }
+
+#ipsbanner { position:absolute;top:1px;right:5%; }
+#logostrip { border:1px solid #00001C;background-color: #3860BB;padding:0px;margin:0px; }
+#submenu   { border:1px solid #C2CFDF;background-color: #04042C;font-size:10px;margin:3px 0px 3px 0px;color:#D0D1D9;font-weight:bold;}
+#submenu a:link, #submenu  a:visited, #submenu a:active { font-weight:bold;font-size:10px;text-decoration: none; color: #E5E5FF; }
+#userlinks { border:1px solid #C2CFDF; background-color: #050535 }
+
+#navstrip  { font-weight:bold;padding:6px 0px 6px 0px; }
+
+.activeuserstrip { background-color:#00001C; padding:6px }
+
+/* Form stuff (post / profile / etc) */
+.pformstrip { background-color: #A1A1AF; color:#383F49;font-weight:bold;padding:5px;margin-top:1px }
+.pformleft  { background-color: #06235D; padding:6px; margin-top:1px;width:25%; border-top:1px solid #C2CFDF; border-right:1px solid #C2CFDF; }
+.pformleftw { background-color: #06235D; padding:6px; margin-top:1px;width:40%; border-top:1px solid #C2CFDF; border-right:1px solid #C2CFDF; }
+.pformright { background-color: #06235D; padding:6px; margin-top:1px;border-top:1px solid #C2CFDF; }
+
+/* Topic View elements */
+.signature   { font-size: 10px; color: #339; line-height:150% }
+.postdetails { font-size: 10px }
+.postcolor   { font-size: 12px; line-height: 160% }
+
+.normalname { font-size: 12px; font-weight: bold; color: #003 }
+.normalname a:link, .normalname a:visited, .normalname a:active { font-size: 12px }
+.unreg { font-size: 11px; font-weight: bold; color: #BABAC4; }
+
+.post1 { background-color: #050535 }
+.post2 { background-color: #04042C }
+.postlinksbar { background-color:#D1DCEB;padding:7px;margin-top:1px;font-size:10px; }
+
+/* Common elements */
+.row1 { background-color: #00001C }
+.row2 { background-color: #04042C }
+.row3 { background-color: #050535 }
+.row4 { background-color: #04042C }
+
+.darkrow1 { color: #C2CFDF; background-color:#4C77B6; }
+.darkrow2 { color: #BCD0ED; background-color:#383F49; }
+.darkrow3 { color: #D1DCEB; background-color:#383F49; }
+
+.hlight { background-color: #788496 }
+.dlight { background-color: #788496 }
+
+.titlemedium { font-weight:bold; color:#BABAC4; padding:7px; margin:0px; }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #BABAC4 }
+
+/* Main table top (dark blue gradient by default) */
+.maintitle { vertical-align:middle;font-weight:bold; color:#E5E5FF; padding:8px 0px 8px 5px; }
+.maintitle a:link, .maintitle  a:visited, .maintitle  a:active { text-decoration: none; color: #E5E5FF }
+.maintitle a:hover { text-decoration: underline }
+
+/* Archive stuff */
+.titlemedium_archive { font-weight:bold; color:#BABAC4; padding:7px; margin:0px; }
+.titlemedium_archive  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #BABAC4 }
+.maintitle_archive { vertical-align:middle;font-weight:bold; color:#FFFCE5; padding:8px 0px 8px 5px; }
+.maintitle_archive a:link, .maintitle  a:visited, .maintitle  a:active { text-decoration: none; color: #FFFCE5 }
+.maintitle_archive a:hover { text-decoration: underline }
+.row1_archive { background-color: #1C1500 }
+.row2_archive { background-color: #171202 }
+.row3_archive { background-color: #211A03 }
+.row4_archive { background-color: #171202 }
+
+/* tableborders gives the white column / row lines effect */
+.plainborder { border:1px solid #888888;background-color:#06235D }
+.tableborder { border:1px solid #888888;background-color:#788496; padding:0; margin:0 }
+.tablefill   { border:1px solid #888888;background-color:#04042C;padding:6px;  }
+.tablepad    { background-color:#04042C;padding:6px }
+.tablebasic  { width:100%; padding:0px 0px 0px 0px; margin:0px; border:0px }
+
+.wrapmini    { float:left;line-height:1.5em;width:25% }
+.pagelinks   { float:left;line-height:1.2em;width:35% }
+
+.desc { font-size:10px; color:#9494A4 }
+.edit { font-size: 9px }
+
+
+.searchlite { font-weight:bold; color:#F00; background-color:#FF0 }
+
+#QUOTE { white-space:normal; font-family: Verdana, Arial; font-size: 11px; color: #A1A1AF; background-color: #000000; border: 1px solid #A1A1AF; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+#CODE  { white-space:normal; font-family: Courier, Courier New, Verdana, Arial;  font-size: 11px; color: #BCD0ED; background-color: #000000; border: 1px solid #A1A1AF; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+.QUOTE { white-space:normal; font-family: Verdana, Arial; font-size: 11px; color: #A1A1AF; background-color: #000000; border: 1px solid #A1A1AF; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+.CODE  { white-space:normal; font-family: Courier, Courier New, Verdana, Arial;  font-size: 11px; color: #BCD0ED; background-color: #000000; border: 1px solid #A1A1AF; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px }
+
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px }
+
+.codebuttons  { font-size: 10px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+.forminput, .textinput, .radiobutton, .checkbox  { font-size: 11px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+
+.thin { padding:6px 0px 6px 0px;line-height:140%;margin:2px 0px 2px 0px;border-top:1px solid #FFF;border-bottom:1px solid #FFF }
+
+.purple { color:purple;font-weight:bold }
+.red    { color:red;font-weight:bold }
+.green  { color:green;font-weight:bold }
+.blue   { color:blue;font-weight:bold }
+.orange { color:#F90;font-weight:bold } 
