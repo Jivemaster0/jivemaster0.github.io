@@ -1,0 +1,23 @@
+/*
+: -------------------------------------oOOo-------------------------------------
+: Title  : Stylesheet
+: System : Jivemaster.co.uk
+: Author : Anwar Ali @ Jivemaster Limited
+: File   : asset/aa-style.css
+: -------------------------------------oOOo-------------------------------------
+: Modification History (most recent on top please)
+:
+: Ver  Date     Author      Change
+: 0.01 20080203 Anwar Ali   Initial version.
+: -------------------------------------oOOo-------------------------------------
+: Notes:
+:
+: o Ascii art from http://patorjk.com/software/taag/ using "Univers" font
+: -------------------------------------oOOo-------------------------------------
+*/
+
+body {margin:5px; padding:0;}
+.aa-header {border-bottom:1px solid #000;}
+.aa-content {}
+.aa-footer {border-top:1px solid #000;}
+.aa-thumb {border:1px solid #f00; margin:1px; padding:1px;}
