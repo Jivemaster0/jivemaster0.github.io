@@ -35,7 +35,7 @@ function init()
 		tile[i].src="x.png";                        // Initial picture: uncovered tile.
 		ttop=50+Math.floor(i/columns)*30;        // Place the tile vertically
 		tleft=400+i%columns*30;                // and horizontally.
-		tile[i].style="position:absolute;height:30px;width:30px;"+"top:"+ttop+"px;left:"tleft"+"px;";
+		tile[i].style="position:absolute;height:30px;width:30px;"+"top:"+ttop+"px;left:"+tleft+"px;";
 		tile[i].addEventListener('mousedown',click);        // Function 'click' will be executed when player clicks on a tile.
 		tile[i].id=i;                                        // The id of the tile is its index.
 		document.body.appendChild(tile[i]);                // Add the tile to the DOM.
