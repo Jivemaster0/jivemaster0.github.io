@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
 
   //create the playing board
   function createBoard() {
-    for (let i=0; i < width*width; i++) {
+    for (let i = 0; i < width*width; i++) {
       square = document.createElement('div')
       square.innerHTML = 0
       gridDisplay.appendChild(square)
@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
     generate()
     generate()
   }
-  createBoard()
 
   //generate a new number
   function generate() {
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function moveRight() {
-    for (let i=0; i < 16; i++) {
+    for (let i = 0; i < 16; i++) {
       if (i % 4 === 0) {
         let totalOne = squares[i].innerHTML
         let totalTwo = squares[i+1].innerHTML
@@ -51,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function moveLeft() {
-    for (let i=0; i < 16; i++) {
+    for (let i = 0; i < 16; i++) {
       if (i % 4 === 0) {
         let totalOne = squares[i].innerHTML
         let totalTwo = squares[i+1].innerHTML
@@ -73,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function moveUp() {
-    for (let i=0; i < 4; i++) {
+    for (let i = 0; i < 4; i++) {
       let totalOne = squares[i].innerHTML
       let totalTwo = squares[i+width].innerHTML
       let totalThree = squares[i+(width*2)].innerHTML
@@ -93,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function moveDown() {
-    for (let i=0; i < 4; i++) {
+    for (let i = 0; i < 4; i++) {
       let totalOne = squares[i].innerHTML
       let totalTwo = squares[i+width].innerHTML
       let totalThree = squares[i+(width*2)].innerHTML
@@ -113,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function combineRow() {
-    for (let i =0; i < 15; i++) {
+    for (let i = 0; i < 15; i++) {
       if (squares[i].innerHTML === squares[i +1].innerHTML) {
         let combinedTotal = parseInt(squares[i].innerHTML) + parseInt(squares[i +1].innerHTML)
         squares[i].innerHTML = combinedTotal
@@ -126,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   }
 
   function combineColumn() {
-    for (let i =0; i < 12; i++) {
+    for (let i = 0; i < 12; i++) {
       if (squares[i].innerHTML === squares[i +width].innerHTML) {
         let combinedTotal = parseInt(squares[i].innerHTML) + parseInt(squares[i +width].innerHTML)
         squares[i].innerHTML = combinedTotal
@@ -150,7 +149,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
       keyDown()
     }
   }
-  document.addEventListener('keyup', control)
 
   function keyRight() {
     moveRight()
@@ -182,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
 
   //check for the number 2048 in the squares to win
   function checkForWin() {
-    for (let i=0; i < squares.length; i++) {
+    for (let i = 0; i < squares.length; i++) {
       if (squares[i].innerHTML == 2048) {
         resultDisplay.innerHTML = 'You WIN'
         document.removeEventListener('keyup', control)
@@ -194,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
   //check if there are no zeros on the board to lose
   function checkForGameOver() {
     let zeros = 0
-    for (let i=0; i < squares.length; i++) {
+    for (let i = 0; i < squares.length; i++) {
       if (squares[i].innerHTML == 0) {
         zeros++
       }
@@ -213,13 +211,13 @@ document.addEventListener('DOMContentLoaded', () =>  {
 
   //add colours
   function addColours() {
-    for (let i=0; i < squares.length; i++) {
+    for (let i = 0; i < squares.length; i++) {
       if (squares[i].innerHTML == 0) squares[i].style.backgroundColor = '#afa192'
       else if (squares[i].innerHTML == 2) squares[i].style.backgroundColor = '#eee4da'
-      else if (squares[i].innerHTML  == 4) squares[i].style.backgroundColor = '#ede0c8' 
-      else if (squares[i].innerHTML  == 8) squares[i].style.backgroundColor = '#f2b179' 
-      else if (squares[i].innerHTML  == 16) squares[i].style.backgroundColor = '#ffcea4' 
-      else if (squares[i].innerHTML  == 32) squares[i].style.backgroundColor = '#e8c064' 
+      else if (squares[i].innerHTML == 4) squares[i].style.backgroundColor = '#ede0c8' 
+      else if (squares[i].innerHTML == 8) squares[i].style.backgroundColor = '#f2b179' 
+      else if (squares[i].innerHTML == 16) squares[i].style.backgroundColor = '#ffcea4' 
+      else if (squares[i].innerHTML == 32) squares[i].style.backgroundColor = '#e8c064' 
       else if (squares[i].innerHTML == 64) squares[i].style.backgroundColor = '#ffab6e' 
       else if (squares[i].innerHTML == 128) squares[i].style.backgroundColor = '#fd9982' 
       else if (squares[i].innerHTML == 256) squares[i].style.backgroundColor = '#ead79c' 
@@ -227,9 +225,11 @@ document.addEventListener('DOMContentLoaded', () =>  {
       else if (squares[i].innerHTML == 1024) squares[i].style.backgroundColor = '#beeaa5' 
       else if (squares[i].innerHTML == 2048) squares[i].style.backgroundColor = '#d7d4f0' 
     }
-}
-addColours()
+  }
 
-var myTimer = setInterval(addColours, 50)
+  createBoard()
+  addColours()
+  document.addEventListener('keyup', control)
 
+  var myTimer = setInterval(addColours, 50)
 })
