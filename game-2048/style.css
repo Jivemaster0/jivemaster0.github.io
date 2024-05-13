@@ -69,10 +69,12 @@ h1 {
 }
 
 .v-button {
-  height:100px;
-  width:80px;
+  height:472px;
+  width:100px;
+  background-color: rgb(167, 205, 167);
 }
 .h-button {
   height:100px;
-  width:400px;
+  width:472px;
+  background-color: rgb(167, 205, 167);
 }
