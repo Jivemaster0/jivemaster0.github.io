@@ -233,3 +233,20 @@ document.addEventListener('DOMContentLoaded', () =>  {
 
   var myTimer = setInterval(addColours, 50)
 })
+
+function buttonUp () {
+  document.getElementById('result').innerHTML = 'Button UP'
+  keyUp()
+}
+function buttonDown () {
+  document.getElementById('result').innerHTML = 'Button DOWN'
+  keyDown()
+}
+function buttonLeft () {
+  document.getElementById('result').innerHTML = 'Button LEFT'
+  keyLeft()
+}
+function buttonRight () {
+  document.getElementById('result').innerHTML = 'Button RIGHT'
+  KeyRight()
+}

@@ -13,7 +13,7 @@ h1 {
 }
 
 .container {
-  width: 468px;
+  width: 575px;
   margin-top: 30px;
 }
 
@@ -31,7 +31,7 @@ h1 {
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 6px;
-  margin-top: 20px;
+  margin: 0px;
 }
 
 .grid div {
@@ -62,4 +62,17 @@ h1 {
 
 .score-title {
   font-size: 16px;
+}
+
+#border-table td {
+  text-align: center;
+}
+
+.v-button {
+  height:400px;
+  width:40px;
+}
+.h-button {
+  height:40px;
+  width:400px;
 }
