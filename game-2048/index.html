@@ -165,15 +165,10 @@
 
   //assign functions to keyCodes
   function control(e) {
-    if(e.keyCode === 37) {
-      keyLeft()
-    } else if (e.keyCode === 38) {
-      keyUp()
-    } else if (e.keyCode === 39) {
-      keyRight()
-    } else if (e.keyCode === 40) {
-      keyDown()
-    }
+    if (e.keyCode === 37) {keyLeft()}
+    else if (e.keyCode === 38) {keyUp()}
+    else if (e.keyCode === 39) {keyRight()}
+    else if (e.keyCode === 40) {keyDown()}
   }
 
   function keyRight() {
@@ -269,27 +264,29 @@ function aaInit() {
 <body onLoad="aaInit()">
   <div class="container">
     <div class="info">
-      <h1>2048</h1>
+      <div>
+        <h1>2048</h1>
+      </div>
       <div class="score-container">
         <div class="score-title">score</div>
         <span id="score">0</span>
       </div>
+      <span id="result">Join the numbers and get to the <b>2048</b> tile.<br>Use the arrow keys or press the buttons.</span>
     </div>
-    <span id="result">Join the numbers and get to the <b>2048</b> tile.<br>Use the arrow keys or press the buttons.</span>
     <table id="border-table">
       <tr>
         <td></td>
-        <td><button class="h-button" onclick="keyUp();">UP</button></td>
+        <td><button class="button-h" onclick="keyUp();">UP</button></td>
         <td></td>
       </tr>
       <tr>
-        <td><button class="v-button" onclick="keyLeft();">L<br>E<br>F<br>T</button></td>
+        <td><button class="button-v" onclick="keyLeft();">L<br>E<br>F<br>T</button></td>
         <td><div class="grid"></div></td>
-        <td><button class="v-button" onclick="keyRight();">R<br>I<br>G<br>H<br>T</button></td>
+        <td><button class="button-v" onclick="keyRight();">R<br>I<br>G<br>H<br>T</button></td>
       </tr>
       <tr>
         <td></td>
-        <td><button class="h-button" onclick="keyDown();">DOWN</button></td>
+        <td><button class="button-h" onclick="keyDown();">DOWN</button></td>
         <td></td>
       </tr>
     </table>
